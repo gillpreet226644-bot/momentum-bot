@@ -1,0 +1,63 @@
+{
+ "updated": "2026-11-14T20:13:43+00:00",
+ "mode": "PAPER",
+ "settings": {
+  "stop_loss": 5,
+  "take_profit": 10,
+  "per_trade": 10,
+  "max_trades": 5
+ },
+ "equity": 99999.86,
+ "last_equity": 100000.0,
+ "cash": 99999.86,
+ "market_open": false,
+ "positions": [],
+ "trade_count": 4,
+ "orders": [
+  {
+   "symbol": "BTC/USD",
+   "side": "sell",
+   "qty": 0.00014907,
+   "price": 65539.1,
+   "t": "2026-11-14T19:52:56.026474Z"
+  },
+  {
+   "symbol": "BTC/USD",
+   "side": "buy",
+   "qty": 0.000149444,
+   "price": 65621.2,
+   "t": "2026-11-14T19:52:43.927707Z"
+  },
+  {
+   "symbol": "BTC/USD",
+   "side": "sell",
+   "qty": 0.000149276,
+   "price": 65465.65,
+   "t": "2026-11-14T19:15:41.259524Z"
+  },
+  {
+   "symbol": "BTC/USD",
+   "side": "buy",
+   "qty": 0.000149651,
+   "price": 65529.3,
+   "t": "2026-11-14T19:15:28.603308Z"
+  }
+ ],
+ "history": [],
+ "closed": [],
+ "totals": {
+  "closed": 0,
+  "wins": 0,
+  "realized": 0.0
+ },
+ "log": [
+  {
+   "t": "2026-11-14T20:13:43+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-14T20:13:43+00:00",
+   "msg": "\u2014 Account $99,999.86 (-0.00% today) | stock market closed"
+  }
+ ]
+}
