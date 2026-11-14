@@ -25,6 +25,7 @@ import sys
 import time
 import math
 import logging
+import json
 from datetime import datetime, date, timedelta, timezone
 
 import requests
@@ -73,8 +74,13 @@ logging.basicConfig(
 )
 
 
+LOG_LINES = []      # this run's messages, shown on the dashboard
+RESULTS = []        # trades closed during this run
+
+
 def say(msg):
     logging.info(msg)
+    LOG_LINES.append({"t": datetime.now(timezone.utc).isoformat(timespec="seconds"), "msg": msg})
     summary = os.getenv("GITHUB_STEP_SUMMARY")   # shows on the GitHub run page
     if summary:
         with open(summary, "a", encoding="utf-8") as f:
@@ -195,6 +201,9 @@ def manage_open_trades(market_open):
         if reason:
             api("DELETE", TRADE_URL, f"/v2/positions/{p['symbol']}")
             pl = float(p["unrealized_pl"])
+            RESULTS.append({"symbol": p["symbol"], "pl": round(pl, 2), "pct": round(change, 2),
+                            "reason": reason.split(" ")[0],
+                            "t": datetime.now(timezone.utc).isoformat(timespec="seconds")})
             say(f"💰 SOLD {p['symbol']} - {reason}, profit/loss ${pl:,.2f}")
             sold.append(p["symbol"])
     return sold
@@ -282,6 +291,70 @@ def run_once(state):
             say(f"⚠️  Could not buy {pick['symbol']}: {e}")
 
 
+# ---------------------------------------------------------------------
+#  Dashboard: save everything to status.json (the web page reads it)
+# ---------------------------------------------------------------------
+STATUS_FILE = os.path.join(HERE, "status.json")
+
+
+def write_status():
+    old = {}
+    if os.path.exists(STATUS_FILE):
+        try:
+            with open(STATUS_FILE, encoding="utf-8") as f:
+                old = json.load(f)
+        except (ValueError, OSError):
+            old = {}
+    st = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+          "mode": "LIVE" if LIVE_TRADING else "PAPER",
+          "settings": {"stop_loss": STOP_LOSS_PCT, "take_profit": TAKE_PROFIT_PCT,
+                       "per_trade": MONEY_PER_TRADE_PCT, "max_trades": MAX_OPEN_TRADES}}
+    try:
+        a = api("GET", TRADE_URL, "/v2/account")
+        st["equity"], st["last_equity"] = float(a["equity"]), float(a["last_equity"])
+        st["cash"] = float(a["cash"])
+        st["market_open"] = api("GET", TRADE_URL, "/v2/clock")["is_open"]
+        st["positions"] = [{
+            "symbol": p["symbol"], "qty": float(p["qty"]),
+            "entry": float(p["avg_entry_price"]), "price": float(p["current_price"]),
+            "value": float(p["market_value"]), "pl": float(p["unrealized_pl"]),
+            "pct": float(p["unrealized_plpc"]) * 100,
+        } for p in api("GET", TRADE_URL, "/v2/positions")]
+        orders = api("GET", TRADE_URL, "/v2/orders",
+                     params={"status": "closed", "limit": 500, "direction": "desc"})
+        filled = [o for o in orders if o.get("status") == "filled"]
+        st["trade_count"] = len(filled)
+        st["orders"] = [{
+            "symbol": o["symbol"], "side": o["side"], "qty": float(o["filled_qty"] or 0),
+            "price": float(o["filled_avg_price"] or 0), "t": o["filled_at"],
+        } for o in filled[:40]]
+    except (RuntimeError, requests.RequestException) as e:
+        st["error"] = str(e)[:200]
+        for k in ("equity", "last_equity", "cash", "market_open", "positions",
+                  "trade_count", "orders"):
+            if k in old:
+                st[k] = old[k]
+    try:
+        h = api("GET", TRADE_URL, "/v2/account/portfolio/history",
+                params={"period": "1M", "timeframe": "1H",
+                        "intraday_reporting": "continuous"})
+        st["history"] = [[t, e] for t, e in zip(h.get("timestamp", []), h.get("equity", []))
+                         if e is not None]
+    except (RuntimeError, requests.RequestException):
+        st["history"] = old.get("history", [])
+    # closed-trade results and the activity log build up over time
+    st["closed"] = (RESULTS[::-1] + old.get("closed", []))[:200]
+    totals = old.get("totals", {"closed": 0, "wins": 0, "realized": 0.0})
+    for r in RESULTS:
+        totals["closed"] += 1
+        totals["wins"] += r["pl"] > 0
+        totals["realized"] = round(totals["realized"] + r["pl"], 2)
+    st["totals"] = totals
+    st["log"] = (LOG_LINES[::-1] + old.get("log", []))[:80]
+    with open(STATUS_FILE, "w", encoding="utf-8") as f:
+        json.dump(st, f, indent=1)
+
+
 def test_trade():
     """Buy $10 of Bitcoin, show it, then sell it - proves everything works."""
     say("🧪 TEST MODE: buying $10 of Bitcoin (BTC/USD) to prove the bot can trade...")
@@ -326,10 +399,16 @@ def main():
     if len(sys.argv) > 1 and sys.argv[1].lower() == "test":
         if LIVE_TRADING:
             sys.exit("Test mode only runs on paper (fake money). Set LIVE_TRADING = False.")
-        test_trade()
+        try:
+            test_trade()
+        finally:
+            write_status()
         return
     if len(sys.argv) > 1 and sys.argv[1].lower() == "once":   # used by GitHub
-        run_once({"day": date.today(), "sold_today": set()})
+        try:
+            run_once({"day": date.today(), "sold_today": set()})
+        finally:
+            write_status()
         return
     say(f"🤖 Bot started in {'LIVE 💵' if LIVE_TRADING else 'PAPER (fake money)'} mode. "
         f"Checking every {CHECK_EVERY_MINUTES} min. Ctrl+C to stop.")
@@ -340,6 +419,8 @@ def main():
             break
         try:
             run_once(state)
+            write_status()
+            LOG_LINES.clear(); RESULTS.clear()
         except requests.RequestException as e:
             say(f"⚠️  Internet hiccup: {e}. Will retry.")
         except RuntimeError as e:
