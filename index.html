@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#07090d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Momentum Bot</title>
+<style>
+  :root{
+    --bg:#07090d; --panel:#0e1219; --panel2:#121823; --line:#1c2431;
+    --text:#e8edf5; --dim:#7d8899; --green:#22f5a0; --red:#ff4d6d; --amber:#ffc24b; --blue:#5aa9ff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+       padding:max(14px,env(safe-area-inset-top)) 14px 40px;max-width:560px;margin:0 auto;
+       background-image:radial-gradient(600px 300px at 80% -10%,rgba(34,245,160,.08),transparent),
+                        radial-gradient(500px 300px at -10% 30%,rgba(90,169,255,.06),transparent)}
+  .mono{font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace}
+  header{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+  .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-size:20px;
+        background:linear-gradient(135deg,#1b2b24,#0f1a2a);border:1px solid var(--line);box-shadow:0 0 18px rgba(34,245,160,.25)}
+  header h1{font-size:17px;font-weight:700;letter-spacing:.2px}
+  header .sub{font-size:12px;color:var(--dim)}
+  .pill{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+        padding:6px 10px;border-radius:99px;background:var(--panel);border:1px solid var(--line)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:pulse 1.8s infinite}
+  .dot.off{background:var(--amber);box-shadow:0 0 10px var(--amber)}
+  .dot.dead{background:var(--red);box-shadow:0 0 10px var(--red);animation:none}
+  @keyframes pulse{50%{opacity:.35}}
+  .banner{font-size:12.5px;padding:10px 12px;border-radius:12px;margin-bottom:14px;
+          background:rgba(255,194,75,.08);border:1px solid rgba(255,194,75,.3);color:var(--amber)}
+  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:12px}
+  .label{font-size:11.5px;letter-spacing:.8px;text-transform:uppercase;color:var(--dim);font-weight:600}
+  .hero .value{font-size:38px;font-weight:800;letter-spacing:-1px;margin:4px 0 2px}
+  .chg{font-weight:700;font-size:15px}
+  .up{color:var(--green);text-shadow:0 0 14px rgba(34,245,160,.45)}
+  .down{color:var(--red);text-shadow:0 0 14px rgba(255,77,109,.4)}
+  .badge{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.8px;padding:3px 7px;border-radius:6px;margin-left:6px;vertical-align:middle}
+  .paper{background:rgba(90,169,255,.12);color:var(--blue);border:1px solid rgba(90,169,255,.35)}
+  .live{background:rgba(255,77,109,.12);color:var(--red);border:1px solid rgba(255,77,109,.4)}
+  .chart{position:relative;margin-top:12px;height:170px}
+  .chart svg{width:100%;height:100%;display:block;overflow:visible}
+  .tabs{display:flex;gap:6px;margin-top:10px}
+  .tabs button{flex:1;background:transparent;border:1px solid var(--line);color:var(--dim);font-weight:700;font-size:12px;
+               padding:7px 0;border-radius:10px;cursor:pointer}
+  .tabs button.on{background:rgba(34,245,160,.1);border-color:rgba(34,245,160,.4);color:var(--green)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+  .tile{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:13px 14px}
+  .tile .big{font-size:24px;font-weight:800;margin-top:4px;letter-spacing:-.5px}
+  .tile .small{font-size:11.5px;color:var(--dim);margin-top:2px}
+  h2{font-size:13px;letter-spacing:.8px;text-transform:uppercase;color:var(--dim);margin:20px 4px 10px;font-weight:700;display:flex;justify-content:space-between}
+  .pos{display:grid;grid-template-columns:1fr auto;gap:4px 10px;padding:13px 14px;background:var(--panel);border:1px solid var(--line);border-radius:16px;margin-bottom:8px}
+  .pos .sym{font-weight:800;font-size:16px}
+  .pos .meta{font-size:12px;color:var(--dim)}
+  .pos .pl{text-align:right;font-weight:800}
+  .bar{grid-column:1/-1;height:6px;border-radius:9px;background:#1a212d;position:relative;margin-top:6px}
+  .bar .zero{position:absolute;top:-3px;width:2px;height:12px;background:#3a4556}
+  .bar .mark{position:absolute;top:-4px;width:14px;height:14px;border-radius:50%;margin-left:-7px;border:2px solid var(--bg)}
+  .bar .ends{position:absolute;top:10px;font-size:10px;color:var(--dim)}
+  .row{display:flex;align-items:center;gap:10px;padding:11px 4px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .side{font-size:10.5px;font-weight:800;padding:4px 7px;border-radius:7px;min-width:42px;text-align:center}
+  .buy{background:rgba(34,245,160,.12);color:var(--green)}
+  .sell{background:rgba(255,77,109,.12);color:var(--red)}
+  .row .s{font-weight:700}
+  .row .r{margin-left:auto;text-align:right;font-size:13px}
+  .row .t{font-size:11.5px;color:var(--dim)}
+  .term{background:#05070a;border:1px solid var(--line);border-radius:16px;padding:12px;font-size:12px;line-height:1.55;max-height:340px;overflow:auto}
+  .term div{white-space:pre-wrap;word-break:break-word}
+  .term .ts{color:#4a5568}
+  .term .buyl{color:var(--green)} .term .selll{color:var(--amber)} .term .warn{color:var(--red)} .term .info{color:#9aa7ba}
+  .empty{color:var(--dim);font-size:13.5px;padding:16px;text-align:center}
+  .toast{position:fixed;left:50%;top:22px;transform:translate(-50%,-80px);background:#0d1f17;border:1px solid rgba(34,245,160,.5);
+         color:var(--green);font-weight:800;font-size:22px;padding:10px 20px;border-radius:14px;box-shadow:0 0 30px rgba(34,245,160,.35);
+         transition:transform .5s cubic-bezier(.2,1.4,.4,1);z-index:9}
+  .toast.show{transform:translate(-50%,0)}
+  .toast.neg{background:#22101a;border-color:rgba(255,77,109,.5);color:var(--red);box-shadow:0 0 30px rgba(255,77,109,.35)}
+  footer{text-align:center;font-size:11.5px;color:var(--dim);margin-top:22px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🤖</div>
+  <div><h1>Momentum Bot</h1><div class="sub" id="sub">Loading…</div></div>
+  <div class="pill"><span class="dot" id="dot"></span><span id="status">…</span></div>
+</header>
+
+<div class="banner" id="banner" hidden></div>
+
+<section class="card hero">
+  <div class="label">Account value <span class="badge paper" id="mode">PAPER</span></div>
+  <div class="value mono" id="equity">$—</div>
+  <div class="chg mono" id="today">—</div>
+  <div class="chart" id="chart"></div>
+  <div class="tabs" id="tabs">
+    <button data-r="1">1D</button><button data-r="7" class="on">1W</button><button data-r="31">1M</button>
+  </div>
+</section>
+
+<div class="grid">
+  <div class="tile"><div class="label">Trades</div><div class="big mono" id="trades">0</div><div class="small">filled orders</div></div>
+  <div class="tile"><div class="label">Win rate</div><div class="big mono" id="winrate">—</div><div class="small" id="wl">no closed trades yet</div></div>
+  <div class="tile"><div class="label">Profit taken</div><div class="big mono" id="realized">$0</div><div class="small">from closed trades</div></div>
+  <div class="tile"><div class="label">Open now</div><div class="big mono" id="open">0</div><div class="small" id="openpl">—</div></div>
+</div>
+
+<h2><span>Open trades</span><span id="rules"></span></h2>
+<div id="positions"></div>
+
+<h2><span>Recent orders</span></h2>
+<div class="card" style="padding:4px 12px" id="orders"></div>
+
+<h2><span>Bot activity</span></h2>
+<div class="term mono" id="log"></div>
+
+<footer id="foot"></footer>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------- where to read the bot's status ---------- */
+function sources(){
+  const s = [];
+  const h = location.hostname, parts = location.pathname.split('/').filter(Boolean);
+  if (h.endsWith('.github.io') && parts.length){       // user.github.io/repo/  ->  raw file (updates fastest)
+    s.push(`https://raw.githubusercontent.com/${h.split('.')[0]}/${parts[0]}/main/status.json`);
+  }
+  s.push('status.json');
+  return s;
+}
+async function load(){
+  for (const url of sources()){
+    try{
+      const r = await fetch(url + '?t=' + Date.now(), {cache:'no-store'});
+      if (r.ok) return {data: await r.json(), demo:false};
+    }catch(e){}
+  }
+  return {data: demoData(), demo:true};
+}
+
+/* ---------- demo data (shown until the bot has run) ---------- */
+function demoData(){
+  const now = Date.now()/1000, hist = []; let e = 100000;
+  for (let i = 31*24; i >= 0; i--){ e += (Math.sin(i/9)+Math.random()-.42)*55; hist.push([Math.round(now - i*3600), +e.toFixed(2)]); }
+  const iso = m => new Date(Date.now()-m*60000).toISOString();
+  return {
+    demo:true, updated: iso(2), mode:'PAPER', equity:e, last_equity:e-412.5, market_open:true, trade_count:46,
+    settings:{stop_loss:5,take_profit:10,per_trade:10,max_trades:5},
+    totals:{closed:21,wins:12,realized:1834.2}, history:hist,
+    positions:[
+      {symbol:'NVDA',qty:83,entry:118.4,price:124.1,value:10300,pl:473.1,pct:4.81},
+      {symbol:'SOLUSD',qty:55.2,entry:181,price:186.9,value:10317,pl:325.7,pct:3.26},
+      {symbol:'AMD',qty:61,entry:162.3,price:158.9,value:9693,pl:-207.4,pct:-2.09}],
+    orders:[
+      {symbol:'SOL/USD',side:'buy',qty:55.2,price:181,t:iso(14)},
+      {symbol:'TSLA',side:'sell',qty:40,price:262.2,t:iso(55)},
+      {symbol:'NVDA',side:'buy',qty:83,price:118.4,t:iso(96)},
+      {symbol:'ETH/USD',side:'sell',qty:3.1,price:3410,t:iso(180)},
+      {symbol:'AMD',side:'buy',qty:61,price:162.3,t:iso(240)}],
+    log:[
+      {t:iso(2),msg:'— Account $102,184.20 (+0.41% today) | stock market OPEN'},
+      {t:iso(2),msg:'Holding 3 trades (max 5). Watching them.'},
+      {t:iso(14),msg:'🛒 BOUGHT SOL/USD (~$10,000) - up 6.1% today at $181'},
+      {t:iso(14),msg:'Top movers: SOL/USD +6.1%, PLTR +4.4%'},
+      {t:iso(55),msg:'💰 SOLD TSLA - take-profit (+10.3%), profit/loss $1,021.40'},
+      {t:iso(180),msg:'💰 SOLD ETH/USD - stop-loss (-5.2%), profit/loss $-520.10'},
+      {t:iso(240),msg:'🛒 BOUGHT AMD (~$10,000) - up 3.8% today at $162.3'}]
+  };
+}
+
+/* ---------- helpers ---------- */
+const $ = id => document.getElementById(id);
+const money = (v, d=(Math.abs(v)<1&&v!==0?4:2)) => (v<0?'-':'') + '$' + Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const signed = v => (v>=0?'+':'') + money(v);
+const ago = iso => { const m = Math.round((Date.now()-new Date(iso))/60000);
+  return m < 1 ? 'just now' : m < 60 ? m+' min ago' : m < 1440 ? Math.round(m/60)+' h ago' : Math.round(m/1440)+' d ago'; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let D = null, range = 7, lastEquity = null;
+
+/* ---------- chart ---------- */
+function drawChart(){
+  const el = $('chart'), hist = (D.history||[]).filter(p => p[0] >= Date.now()/1000 - range*86400);
+  if (hist.length < 2){ el.innerHTML = '<div class="empty">Chart appears after a few bot runs</div>'; return; }
+  const W = el.clientWidth, H = el.clientHeight, ys = hist.map(p=>p[1]);
+  const lo = Math.min(...ys), hi = Math.max(...ys), pad = (hi-lo)*.12 || 1;
+  const x = i => i/(hist.length-1)*W, y = v => H - (v-lo+pad)/(hi-lo+2*pad)*H;
+  const up = ys[ys.length-1] >= ys[0], col = up ? 'var(--green)' : 'var(--red)';
+  const pts = hist.map((p,i)=>`${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join(' ');
+  const lx = x(hist.length-1), ly = y(ys[ys.length-1]);
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${up?'#22f5a0':'#ff4d6d'}" stop-opacity=".28"/><stop offset="1" stop-color="${up?'#22f5a0':'#ff4d6d'}" stop-opacity="0"/></linearGradient>
+      <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <polygon points="0,${H} ${pts} ${W},${H}" fill="url(#g)"/>
+    <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2.2" filter="url(#glow)" stroke-linejoin="round"/>
+    <circle cx="${lx}" cy="${ly}" r="4.5" fill="${col}" filter="url(#glow)"><animate attributeName="r" values="4.5;7;4.5" dur="1.8s" repeatCount="indefinite"/></circle>
+  </svg>`;
+}
+
+/* ---------- render ---------- */
+function render(demo){
+  const banner = $('banner');
+  banner.hidden = !demo && !D.error;
+  banner.textContent = demo ? '👀 Demo data — this switches to your real bot automatically once it has run on GitHub.'
+                            : D.error ? '⚠️ Last update had a problem: ' + D.error : '';
+
+  const mins = (Date.now() - new Date(D.updated))/60000;
+  $('dot').className = 'dot' + (mins > 60 ? ' dead' : mins > 20 ? ' off' : '');
+  $('status').textContent = mins > 60 ? 'Offline' : mins > 20 ? 'Delayed' : 'Running';
+  $('sub').textContent = 'Last check ' + ago(D.updated) + ' · stocks ' + (D.market_open ? 'open' : 'closed');
+  $('mode').textContent = D.mode; $('mode').className = 'badge ' + (D.mode === 'LIVE' ? 'live' : 'paper');
+
+  const eq = D.equity||0, dc = eq - (D.last_equity||eq), dp = D.last_equity ? dc/D.last_equity*100 : 0;
+  $('equity').textContent = money(eq);
+  $('today').className = 'chg mono ' + (dc >= 0 ? 'up' : 'down');
+  $('today').textContent = `${signed(dc)} (${dp>=0?'+':''}${dp.toFixed(2)}%) today`;
+  if (lastEquity !== null && Math.abs(eq - lastEquity) >= 1) toast(eq - lastEquity);
+  lastEquity = eq;
+  drawChart();
+
+  const T = D.totals || {closed:0,wins:0,realized:0};
+  $('trades').textContent = (D.trade_count||0).toLocaleString() + ((D.trade_count||0) >= 500 ? '+' : '');
+  $('winrate').textContent = T.closed ? Math.round(T.wins/T.closed*100) + '%' : '—';
+  $('wl').textContent = T.closed ? `${T.wins} win${T.wins===1?'':'s'} · ${T.closed - T.wins} loss${T.closed - T.wins===1?'':'es'}` : 'no closed trades yet';
+  $('realized').textContent = signed(T.realized||0);
+  $('realized').className = 'big mono ' + ((T.realized||0) >= 0 ? 'up' : 'down');
+
+  const P = D.positions || [], S = D.settings || {stop_loss:5,take_profit:10,max_trades:5};
+  const openPl = P.reduce((a,p)=>a+p.pl,0);
+  $('open').textContent = `${P.length}/${S.max_trades}`;
+  $('openpl').innerHTML = P.length ? `<span class="${openPl>=0?'up':'down'}">${signed(openPl)}</span> unrealized` : 'waiting for a mover';
+  $('rules').textContent = `sell at −${S.stop_loss}% / +${S.take_profit}%`;
+  $('positions').innerHTML = P.length ? P.map(p => {
+    const span = S.stop_loss + S.take_profit, pos = Math.max(0, Math.min(100, (p.pct + S.stop_loss)/span*100)),
+          zero = S.stop_loss/span*100, c = p.pl >= 0 ? 'var(--green)' : 'var(--red)';
+    return `<div class="pos"><div><div class="sym">${esc(p.symbol)}</div>
+      <div class="meta mono">${+p.qty.toFixed(4)} @ ${money(p.entry)} → ${money(p.price)}</div></div>
+      <div class="pl mono ${p.pl>=0?'up':'down'}">${signed(p.pl)}<div style="font-size:12px">${p.pct>=0?'+':''}${p.pct.toFixed(2)}%</div></div>
+      <div class="bar"><div class="zero" style="left:${zero}%"></div>
+        <div class="mark" style="left:${pos}%;background:${c};box-shadow:0 0 10px ${c}"></div>
+        <span class="ends" style="left:0">stop −${S.stop_loss}%</span><span class="ends" style="right:0">target +${S.take_profit}%</span></div>
+      <div style="height:10px"></div></div>`;
+  }).join('') : '<div class="card empty">No open trades — the bot is watching for movers.</div>';
+
+  const O = D.orders || [];
+  $('orders').innerHTML = O.length ? O.slice(0,15).map(o => `<div class="row">
+      <span class="side ${o.side}">${o.side.toUpperCase()}</span>
+      <div><div class="s">${esc(o.symbol)}</div><div class="t">${ago(o.t)}</div></div>
+      <div class="r mono">${+o.qty.toFixed(4)} × ${money(o.price)}<div class="t">${money(o.qty*o.price)}</div></div></div>`).join('')
+    : '<div class="empty">No orders yet</div>';
+
+  const L = D.log || [];
+  $('log').innerHTML = L.length ? L.map(l => {
+    const m = l.msg, cls = m.includes('BOUGHT') ? 'buyl' : m.includes('SOLD') ? 'selll' : /⚠️|🛑|❌/.test(m) ? 'warn' : 'info';
+    const t = new Date(l.t).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+    return `<div><span class="ts">${t}</span> <span class="${cls}">${esc(m)}</span></div>`;
+  }).join('') : '<div class="info">Waiting for the first bot run…</div>';
+
+  $('foot').textContent = 'Refreshes every minute · Not financial advice';
+}
+
+function toast(diff){
+  const t = $('toast'); t.textContent = signed(diff); t.className = 'toast show mono' + (diff < 0 ? ' neg' : '');
+  setTimeout(()=> t.className = 'toast mono' + (diff < 0 ? ' neg' : ''), 2600);
+}
+
+$('tabs').onclick = e => { if (!e.target.dataset.r) return;
+  range = +e.target.dataset.r; [...$('tabs').children].forEach(b => b.classList.toggle('on', b === e.target)); drawChart(); };
+window.addEventListener('resize', () => D && drawChart());
+
+async function refresh(){ const r = await load(); D = r.data; render(r.demo || D.demo); }
+refresh(); setInterval(refresh, 60000);
+</script>
+</body>
+</html>
