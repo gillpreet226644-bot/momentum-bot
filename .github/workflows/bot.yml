@@ -1,0 +1,45 @@
+name: Momentum Bot
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "once = normal check, test = buy+sell $10 of Bitcoin"
+        default: "once"
+        type: choice
+        options: [once, test]
+
+concurrency:
+  group: momentum-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Run the bot
+        env:
+          ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+          CONFIRM_LIVE: ${{ secrets.CONFIRM_LIVE }}
+        run: python bot.py ${{ github.event.inputs.mode || 'once' }}
+      - name: Save status for the dashboard
+        if: always()
+        run: |
+          git config user.name "momentum-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add status.json || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "Bot update" -q
+          git pull --rebase -q && git push -q
