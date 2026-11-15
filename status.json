@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T14:23:15+00:00",
+ "updated": "2026-11-15T15:12:04+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99945.05,
+ "equity": 99897.52,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -34,28 +34,28 @@
    "symbol": "SUSHIUSD",
    "qty": 63768.48808982,
    "entry": 0.156783847,
-   "price": 0.15235,
-   "value": 9715.12916,
-   "pl": -282.73972,
-   "pct": -2.828
+   "price": 0.154364,
+   "value": 9843.558895,
+   "pl": -154.309985,
+   "pct": -1.543
   },
   {
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.17896,
-   "value": 10119.969896,
-   "pl": 244.221301,
-   "pct": 2.473
+   "price": 5.139,
+   "value": 10041.885879,
+   "pl": 166.137284,
+   "pct": 1.6820000000000002
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.9702,
-   "value": 9974.450301,
-   "pl": 206.865915,
-   "pct": 2.118
+   "price": 0.96068,
+   "value": 9876.576907,
+   "pl": 108.992521,
+   "pct": 1.1159999999999999
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-15T15:12:04+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-15T15:12:04+00:00",
+   "msg": "\u2014 Account $99,897.52 (-0.10% today) | stock market closed"
+  },
   {
    "t": "2026-11-15T14:23:15+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
