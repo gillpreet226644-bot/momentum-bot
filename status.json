@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:24:47+00:00",
+ "updated": "2026-11-15T10:16:24+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 100350.89,
+ "equity": 100320.32,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -52,10 +52,10 @@
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.9713,
-   "value": 9985.759202,
-   "pl": 218.174816,
-   "pct": 2.234
+   "price": 0.968327,
+   "value": 9955.194328,
+   "pl": 187.609942,
+   "pct": 1.921
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-15T10:16:24+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-15T10:16:23+00:00",
+   "msg": "\u2014 Account $100,320.32 (+0.32% today) | stock market closed"
+  },
   {
    "t": "2026-11-15T09:24:47+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
