@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:56:58+00:00",
+ "updated": "2026-11-15T16:40:33+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99881.51,
+ "equity": 99813.38,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -43,19 +43,19 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.139,
-   "value": 10041.885879,
-   "pl": 166.137284,
-   "pct": 1.6820000000000002
+   "price": 5.13261,
+   "value": 10029.399471,
+   "pl": 153.650876,
+   "pct": 1.5559999999999998
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.959123,
-   "value": 9860.569673,
-   "pl": 92.985287,
-   "pct": 0.9520000000000001
+   "price": 0.95371,
+   "value": 9804.919601,
+   "pl": 37.335215,
+   "pct": 0.382
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-15T16:40:33+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-15T16:40:33+00:00",
+   "msg": "\u2014 Account $99,813.38 (-0.19% today) | stock market closed"
+  },
   {
    "t": "2026-11-15T15:56:58+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
