@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:38:15+00:00",
+ "updated": "2026-11-15T00:17:16+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,13 +7,46 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99999.86,
+ "equity": 100655.98,
  "last_equity": 100000.0,
- "cash": 99999.86,
+ "cash": 80270.08,
  "market_open": false,
- "positions": [],
- "trade_count": 4,
+ "positions": [
+  {
+   "symbol": "BATUSD",
+   "qty": 104862.655791025,
+   "entry": 0.094458117,
+   "price": 0.09736818,
+   "value": 10210.285944,
+   "pl": 305.156934,
+   "pct": 3.081
+  },
+  {
+   "symbol": "FILUSD",
+   "qty": 15810.46009198,
+   "entry": 0.61843,
+   "price": 0.6436,
+   "value": 10175.612115,
+   "pl": 397.94928,
+   "pct": 4.07
+  }
+ ],
+ "trade_count": 6,
  "orders": [
+  {
+   "symbol": "FIL/USD",
+   "side": "buy",
+   "qty": 15850.085305244,
+   "price": 0.61843,
+   "t": "2026-11-15T00:17:16.619470183Z"
+  },
+  {
+   "symbol": "BAT/USD",
+   "side": "buy",
+   "qty": 105100.843308989,
+   "price": 0.094457955,
+   "t": "2026-11-15T00:17:16.655290249Z"
+  },
   {
    "symbol": "BTC/USD",
    "side": "sell",
@@ -51,6 +84,22 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-15T00:17:16+00:00",
+   "msg": "\ud83d\uded2 BOUGHT FIL/USD (~$10,000) - up 4.3% today at $0.6436"
+  },
+  {
+   "t": "2026-11-15T00:17:16+00:00",
+   "msg": "\ud83d\uded2 BOUGHT BAT/USD (~$10,000) - up 5.9% today at $0.09737"
+  },
+  {
+   "t": "2026-11-15T00:17:16+00:00",
+   "msg": "Top movers: BAT/USD +5.9%, FIL/USD +4.3%"
+  },
+  {
+   "t": "2026-11-15T00:17:15+00:00",
+   "msg": "\u2014 Account $99,999.86 (-0.00% today) | stock market closed"
+  },
   {
    "t": "2026-11-14T23:38:15+00:00",
    "msg": "No good movers right now. Waiting."
