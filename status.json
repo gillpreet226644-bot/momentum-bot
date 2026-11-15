@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:30:29+00:00",
+ "updated": "2026-11-15T20:15:32+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 100109.78,
+ "equity": 99838.06,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "BATUSD",
    "qty": 104862.655791025,
    "entry": 0.094458117,
-   "price": 0.0966042,
-   "value": 10130.172973,
-   "pl": 225.043963,
-   "pct": 2.2720000000000002
+   "price": 0.09418,
+   "value": 9875.964922,
+   "pl": -29.164088,
+   "pct": -0.294
   },
   {
    "symbol": "FILUSD",
@@ -43,19 +43,19 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.1691,
-   "value": 10100.702919,
-   "pl": 224.954324,
-   "pct": 2.278
+   "price": 5.168,
+   "value": 10098.553459,
+   "pl": 222.804864,
+   "pct": 2.2560000000000002
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.957794,
-   "value": 9846.906465,
-   "pl": 79.322079,
-   "pct": 0.812
+   "price": 0.9563,
+   "value": 9831.546921,
+   "pl": 63.962535,
+   "pct": 0.655
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-15T20:15:32+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-15T20:15:31+00:00",
+   "msg": "\u2014 Account $99,838.06 (-0.16% today) | stock market closed"
+  },
   {
    "t": "2026-11-15T19:30:29+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
