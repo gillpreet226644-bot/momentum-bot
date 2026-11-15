@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:36:07+00:00",
+ "updated": "2026-11-15T02:31:54+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,9 +7,9 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99866.52,
+ "equity": 99774.94,
  "last_equity": 100000.0,
- "cash": 80270.08,
+ "cash": 70478.0,
  "market_open": false,
  "positions": [
   {
@@ -29,10 +29,26 @@
    "value": 9386.154973,
    "pl": -391.507862,
    "pct": -4.004
+  },
+  {
+   "symbol": "XRPUSD",
+   "qty": 10280.818698489,
+   "entry": 0.950078459,
+   "price": 0.943553,
+   "value": 9700.497325,
+   "pl": -67.087061,
+   "pct": -0.687
   }
  ],
- "trade_count": 6,
+ "trade_count": 7,
  "orders": [
+  {
+   "symbol": "XRP/USD",
+   "side": "buy",
+   "qty": 10306.585161394,
+   "price": 0.950078459,
+   "t": "2026-11-15T02:31:54.407097143Z"
+  },
   {
    "symbol": "FIL/USD",
    "side": "buy",
@@ -84,6 +100,18 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-15T02:31:54+00:00",
+   "msg": "\ud83d\uded2 BOUGHT XRP/USD (~$9,987) - up 3.3% today at $0.9436"
+  },
+  {
+   "t": "2026-11-15T02:31:54+00:00",
+   "msg": "Top movers: XRP/USD +3.3%"
+  },
+  {
+   "t": "2026-11-15T02:31:51+00:00",
+   "msg": "\u2014 Account $99,866.52 (-0.13% today) | stock market closed"
+  },
   {
    "t": "2026-11-15T01:36:07+00:00",
    "msg": "No good movers right now. Waiting."
