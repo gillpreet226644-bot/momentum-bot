@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:47:16+00:00",
+ "updated": "2026-11-16T18:38:55+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,19 +7,19 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99682.01,
+ "equity": 99558.45,
  "last_equity": 100000.0,
- "cash": 50560.67,
+ "cash": 60415.55,
  "market_open": true,
  "positions": [
   {
    "symbol": "BATUSD",
    "qty": 104862.655791025,
    "entry": 0.094458117,
-   "price": 0.0958494,
-   "value": 10051.02264,
-   "pl": 145.89363,
-   "pct": 1.473
+   "price": 0.095386,
+   "value": 10002.429285,
+   "pl": 97.300275,
+   "pct": 0.9820000000000001
   },
   {
    "symbol": "FILUSD",
@@ -29,6 +29,15 @@
    "value": 9385.563424,
    "pl": -392.099411,
    "pct": -4.01
+  },
+  {
+   "symbol": "GLD",
+   "qty": -28.0,
+   "entry": 351.96,
+   "price": 352.605,
+   "value": -9872.94,
+   "pl": -18.06,
+   "pct": -0.183
   },
   {
    "symbol": "SUSHIUSD",
@@ -43,23 +52,30 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.1149,
-   "value": 9994.793167,
-   "pl": 119.044572,
-   "pct": 1.205
+   "price": 5.08107,
+   "value": 9928.687504,
+   "pl": 52.938909,
+   "pct": 0.536
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.957745,
-   "value": 9846.402704,
-   "pl": 78.818318,
-   "pct": 0.807
+   "price": 0.95864,
+   "value": 9855.604037,
+   "pl": 88.019651,
+   "pct": 0.901
   }
  ],
- "trade_count": 9,
+ "trade_count": 10,
  "orders": [
+  {
+   "symbol": "GLD",
+   "side": "sell",
+   "qty": 28.0,
+   "price": 351.96,
+   "t": "2026-11-16T18:10:12.509662Z"
+  },
   {
    "symbol": "SUSHI/USD",
    "side": "buy",
@@ -132,6 +148,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T18:38:55+00:00",
+   "msg": "Holding 6 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T18:38:54+00:00",
+   "msg": "\u2014 Account $99,558.45 (-0.44% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-16T17:47:16+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -443,14 +467,6 @@
   {
    "t": "2026-11-15T02:31:54+00:00",
    "msg": "Top movers: XRP/USD +3.3%"
-  },
-  {
-   "t": "2026-11-15T02:31:51+00:00",
-   "msg": "\u2014 Account $99,866.52 (-0.13% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T01:36:07+00:00",
-   "msg": "No good movers right now. Waiting."
   }
  ]
 }
