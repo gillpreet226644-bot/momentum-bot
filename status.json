@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:35:15+00:00",
+ "updated": "2026-11-16T21:29:44+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,59 +7,48 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99294.24,
+ "equity": 99214.95,
  "last_equity": 100000.0,
- "cash": 128950.78,
- "market_open": true,
- "positions": [
+ "cash": 99214.95,
+ "market_open": false,
+ "positions": [],
+ "trade_count": 24,
+ "orders": [
   {
-   "symbol": "CTVA",
-   "qty": -1101.0,
-   "entry": 8.99,
-   "price": 8.94,
-   "value": -9842.94,
-   "pl": 55.05,
-   "pct": 0.5559999999999999
-  },
-  {
-   "symbol": "GLD",
-   "qty": -28.0,
-   "entry": 351.96,
-   "price": 353.355,
-   "value": -9893.94,
-   "pl": -39.06,
-   "pct": -0.396
-  },
-  {
-   "symbol": "HUBS",
-   "qty": 42.0,
-   "entry": 232.48381,
-   "price": 230.74,
-   "value": 9691.08,
-   "pl": -73.24002,
-   "pct": -0.75
+   "symbol": "SMCI",
+   "side": "buy",
+   "qty": 392.0,
+   "price": 25.21,
+   "t": "2026-11-16T20:53:47.843189611Z"
   },
   {
    "symbol": "NVDA",
-   "qty": -63.0,
-   "entry": 156.39,
-   "price": 155.515,
-   "value": -9797.445,
-   "pl": 55.125,
-   "pct": 0.559
+   "side": "buy",
+   "qty": 63.0,
+   "price": 155.69,
+   "t": "2026-11-16T20:53:43.089366Z"
   },
   {
-   "symbol": "SMCI",
-   "qty": -392.0,
-   "entry": 25.28,
-   "price": 25.035,
-   "value": -9813.72,
-   "pl": 96.04,
-   "pct": 0.9690000000000001
-  }
- ],
- "trade_count": 19,
- "orders": [
+   "symbol": "HUBS",
+   "side": "sell",
+   "qty": 42.0,
+   "price": 231.65,
+   "t": "2026-11-16T20:53:38.172071Z"
+  },
+  {
+   "symbol": "GLD",
+   "side": "buy",
+   "qty": 28.0,
+   "price": 353.12,
+   "t": "2026-11-16T20:53:32.884244Z"
+  },
+  {
+   "symbol": "CTVA",
+   "side": "buy",
+   "qty": 1101.0,
+   "price": 8.98,
+   "t": "2026-11-16T20:53:28.401873Z"
+  },
   {
    "symbol": "CTVA",
    "side": "sell",
@@ -202,6 +191,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T21:29:44+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-16T21:29:43+00:00",
+   "msg": "\u2014 Account $99,214.95 (-0.79% today) | stock market closed"
+  },
   {
    "t": "2026-11-16T20:35:15+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -513,14 +510,6 @@
   {
    "t": "2026-11-15T04:29:14+00:00",
    "msg": "\u2014 Account $100,447.53 (+0.45% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T03:27:59+00:00",
-   "msg": "\ud83d\uded2 BOUGHT SUSHI/USD (~$10,049) - up 3.4% today at $0.1549"
-  },
-  {
-   "t": "2026-11-15T03:27:59+00:00",
-   "msg": "\ud83d\uded2 BOUGHT UNI/USD (~$10,049) - up 4.2% today at $5.084"
   }
  ]
 }
