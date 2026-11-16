@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:57:42+00:00",
+ "updated": "2026-11-16T16:42:01+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 100013.17,
+ "equity": 99671.27,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": true,
@@ -43,19 +43,19 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.222,
-   "value": 10204.0724,
-   "pl": 328.323805,
-   "pct": 3.325
+   "price": 5.1149,
+   "value": 9994.793167,
+   "pl": 119.044572,
+   "pct": 1.205
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.9696,
-   "value": 9968.28181,
-   "pl": 200.697424,
-   "pct": 2.0549999999999997
+   "price": 0.9567,
+   "value": 9835.659249,
+   "pl": 68.074863,
+   "pct": 0.697
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T16:42:01+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T16:42:00+00:00",
+   "msg": "\u2014 Account $99,671.27 (-0.33% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-16T14:57:42+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -443,14 +451,6 @@
   {
    "t": "2026-11-15T00:17:16+00:00",
    "msg": "\ud83d\uded2 BOUGHT FIL/USD (~$10,000) - up 4.3% today at $0.6436"
-  },
-  {
-   "t": "2026-11-15T00:17:16+00:00",
-   "msg": "\ud83d\uded2 BOUGHT BAT/USD (~$10,000) - up 5.9% today at $0.09737"
-  },
-  {
-   "t": "2026-11-15T00:17:16+00:00",
-   "msg": "Top movers: BAT/USD +5.9%, FIL/USD +4.3%"
   }
  ]
 }
