@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:38:55+00:00",
+ "updated": "2026-11-16T19:42:11+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,68 +7,122 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99558.45,
+ "equity": 99231.44,
  "last_equity": 100000.0,
- "cash": 60415.55,
+ "cash": 128950.78,
  "market_open": true,
  "positions": [
   {
-   "symbol": "BATUSD",
-   "qty": 104862.655791025,
-   "entry": 0.094458117,
-   "price": 0.095386,
-   "value": 10002.429285,
-   "pl": 97.300275,
-   "pct": 0.9820000000000001
-  },
-  {
-   "symbol": "FILUSD",
-   "qty": 15810.46009198,
-   "entry": 0.61843,
-   "price": 0.59363,
-   "value": 9385.563424,
-   "pl": -392.099411,
-   "pct": -4.01
+   "symbol": "CTVA",
+   "qty": -1101.0,
+   "entry": 8.99,
+   "price": 8.955,
+   "value": -9859.455,
+   "pl": 38.535,
+   "pct": 0.38899999999999996
   },
   {
    "symbol": "GLD",
    "qty": -28.0,
    "entry": 351.96,
-   "price": 352.605,
-   "value": -9872.94,
-   "pl": -18.06,
-   "pct": -0.183
+   "price": 353.889,
+   "value": -9908.892,
+   "pl": -54.012,
+   "pct": -0.5479999999999999
   },
   {
-   "symbol": "SUSHIUSD",
-   "qty": 63768.48808982,
-   "entry": 0.156783847,
-   "price": 0.154364,
-   "value": 9843.558895,
-   "pl": -154.309985,
-   "pct": -1.543
+   "symbol": "HUBS",
+   "qty": 42.0,
+   "entry": 232.48381,
+   "price": 230.9475,
+   "value": 9699.795,
+   "pl": -64.52502,
+   "pct": -0.661
   },
   {
-   "symbol": "UNIUSD",
-   "qty": 1954.054461855,
-   "entry": 5.053978171,
-   "price": 5.08107,
-   "value": 9928.687504,
-   "pl": 52.938909,
-   "pct": 0.536
+   "symbol": "NVDA",
+   "qty": -63.0,
+   "entry": 156.39,
+   "price": 155.615,
+   "value": -9803.745,
+   "pl": 48.825,
+   "pct": 0.496
   },
   {
-   "symbol": "XRPUSD",
-   "qty": 10280.818698489,
-   "entry": 0.950078459,
-   "price": 0.95864,
-   "value": 9855.604037,
-   "pl": 88.019651,
-   "pct": 0.901
+   "symbol": "SMCI",
+   "qty": -392.0,
+   "entry": 25.28,
+   "price": 25.12,
+   "value": -9847.04,
+   "pl": 62.72,
+   "pct": 0.633
   }
  ],
- "trade_count": 10,
+ "trade_count": 19,
  "orders": [
+  {
+   "symbol": "CTVA",
+   "side": "sell",
+   "qty": 1101.0,
+   "price": 8.99,
+   "t": "2026-11-16T19:24:28.4958Z"
+  },
+  {
+   "symbol": "NVDA",
+   "side": "sell",
+   "qty": 63.0,
+   "price": 156.39,
+   "t": "2026-11-16T19:24:29.072225Z"
+  },
+  {
+   "symbol": "SMCI",
+   "side": "sell",
+   "qty": 392.0,
+   "price": 25.28,
+   "t": "2026-11-16T19:13:59.975698Z"
+  },
+  {
+   "symbol": "HUBS",
+   "side": "buy",
+   "qty": 42.0,
+   "price": 232.48381,
+   "t": "2026-11-16T19:13:58.663718Z"
+  },
+  {
+   "symbol": "XRP/USD",
+   "side": "sell",
+   "qty": 10280.818698489,
+   "price": 0.955058985,
+   "t": "2026-11-16T19:01:13.622778Z"
+  },
+  {
+   "symbol": "UNI/USD",
+   "side": "sell",
+   "qty": 1954.054461855,
+   "price": 5.069268803,
+   "t": "2026-11-16T19:01:08.966929Z"
+  },
+  {
+   "symbol": "SUSHI/USD",
+   "side": "sell",
+   "qty": 63768.48808982,
+   "price": 0.151269588,
+   "t": "2026-11-16T19:01:05.60275Z"
+  },
+  {
+   "symbol": "FIL/USD",
+   "side": "sell",
+   "qty": 15810.46009198,
+   "price": 0.605596,
+   "t": "2026-11-16T19:00:59.803234Z"
+  },
+  {
+   "symbol": "BAT/USD",
+   "side": "sell",
+   "qty": 104862.655791025,
+   "price": 0.09350881,
+   "t": "2026-11-16T19:00:55.458338Z"
+  },
   {
    "symbol": "GLD",
    "side": "sell",
@@ -148,6 +202,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T19:42:11+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T19:42:09+00:00",
+   "msg": "\u2014 Account $99,234.35 (-0.77% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-16T18:38:55+00:00",
    "msg": "Holding 6 trades (max 5). Watching them."
@@ -459,14 +521,6 @@
   {
    "t": "2026-11-15T03:27:57+00:00",
    "msg": "\u2014 Account $100,487.98 (+0.49% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T02:31:54+00:00",
-   "msg": "\ud83d\uded2 BOUGHT XRP/USD (~$9,987) - up 3.3% today at $0.9436"
-  },
-  {
-   "t": "2026-11-15T02:31:54+00:00",
-   "msg": "Top movers: XRP/USD +3.3%"
   }
  ]
 }
