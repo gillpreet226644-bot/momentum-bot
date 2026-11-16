@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:15:47+00:00",
+ "updated": "2026-11-16T09:11:38+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,6 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
+ "error": "GET /v2/account -> 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
  "equity": 99876.1,
  "last_equity": 100000.0,
  "cash": 50560.67,
