@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:11:38+00:00",
+ "updated": "2026-11-16T10:48:54+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,8 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "error": "GET /v2/account -> 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
- "equity": 99876.1,
+ "equity": 99462.13,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -17,19 +16,19 @@
    "symbol": "BATUSD",
    "qty": 104862.655791025,
    "entry": 0.094458117,
-   "price": 0.09459,
-   "value": 9918.958611,
-   "pl": 13.829601,
-   "pct": 0.13999999999999999
+   "price": 0.09326,
+   "value": 9779.491279,
+   "pl": -125.637731,
+   "pct": -1.268
   },
   {
    "symbol": "FILUSD",
    "qty": 15810.46009198,
    "entry": 0.61843,
-   "price": 0.6131064,
-   "value": 9693.494269,
-   "pl": -84.168566,
-   "pct": -0.861
+   "price": 0.59363,
+   "value": 9385.563424,
+   "pl": -392.099411,
+   "pct": -4.01
   },
   {
    "symbol": "SUSHIUSD",
@@ -44,19 +43,19 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.1534,
-   "value": 10070.024264,
-   "pl": 194.275669,
-   "pct": 1.967
+   "price": 5.1695,
+   "value": 10101.484541,
+   "pl": 225.735946,
+   "pct": 2.286
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.9522,
-   "value": 9789.395565,
-   "pl": 21.811179,
-   "pct": 0.22300000000000003
+   "price": 0.952391,
+   "value": 9791.359201,
+   "pl": 23.774815,
+   "pct": 0.243
   }
  ],
  "trade_count": 9,
@@ -133,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T10:48:54+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T10:48:53+00:00",
+   "msg": "\u2014 Account $99,462.13 (-0.54% today) | stock market closed"
+  },
   {
    "t": "2026-11-16T06:15:47+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -443,14 +450,6 @@
   },
   {
    "t": "2026-11-14T23:00:14+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-14T23:00:12+00:00",
-   "msg": "\u2014 Account $99,999.86 (-0.00% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-14T22:20:34+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
