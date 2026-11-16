@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:02:12+00:00",
+ "updated": "2026-11-16T06:15:47+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99975.37,
+ "equity": 99876.1,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -43,19 +43,19 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.18,
-   "value": 10122.002112,
-   "pl": 246.253517,
-   "pct": 2.494
+   "price": 5.1534,
+   "value": 10070.024264,
+   "pl": 194.275669,
+   "pct": 1.967
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.9568,
-   "value": 9836.687331,
-   "pl": 69.102945,
-   "pct": 0.707
+   "price": 0.9522,
+   "value": 9789.395565,
+   "pl": 21.811179,
+   "pct": 0.22300000000000003
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T06:15:47+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T06:15:47+00:00",
+   "msg": "\u2014 Account $99,876.10 (-0.12% today) | stock market closed"
+  },
   {
    "t": "2026-11-16T05:02:12+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -442,14 +450,6 @@
   },
   {
    "t": "2026-11-14T22:20:34+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-14T22:20:33+00:00",
-   "msg": "\u2014 Account $99,999.86 (-0.00% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-14T21:40:57+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
