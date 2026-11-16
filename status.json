@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:42:01+00:00",
+ "updated": "2026-11-16T17:47:16+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99671.27,
+ "equity": 99682.01,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": true,
@@ -52,10 +52,10 @@
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.9567,
-   "value": 9835.659249,
-   "pl": 68.074863,
-   "pct": 0.697
+   "price": 0.957745,
+   "value": 9846.402704,
+   "pl": 78.818318,
+   "pct": 0.807
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T17:47:16+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T17:47:15+00:00",
+   "msg": "\u2014 Account $99,682.01 (-0.32% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-16T16:42:01+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -443,14 +451,6 @@
   {
    "t": "2026-11-15T01:36:07+00:00",
    "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-15T01:36:06+00:00",
-   "msg": "\u2014 Account $99,866.52 (-0.13% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T00:17:16+00:00",
-   "msg": "\ud83d\uded2 BOUGHT FIL/USD (~$10,000) - up 4.3% today at $0.6436"
   }
  ]
 }
