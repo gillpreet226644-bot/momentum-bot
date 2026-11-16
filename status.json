@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:50:27+00:00",
+ "updated": "2026-11-16T00:51:30+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 100220.26,
+ "equity": 100176.18,
  "last_equity": 100000.0,
  "cash": 50560.67,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "FILUSD",
    "qty": 15810.46009198,
    "entry": 0.61843,
-   "price": 0.608949,
-   "value": 9627.763863,
-   "pl": -149.898972,
-   "pct": -1.533
+   "price": 0.6131064,
+   "value": 9693.494269,
+   "pl": -84.168566,
+   "pct": -0.861
   },
   {
    "symbol": "SUSHIUSD",
@@ -43,19 +43,19 @@
    "symbol": "UNIUSD",
    "qty": 1954.054461855,
    "entry": 5.053978171,
-   "price": 5.1501,
-   "value": 10063.575884,
-   "pl": 187.827289,
-   "pct": 1.902
+   "price": 5.1746,
+   "value": 10111.450218,
+   "pl": 235.701623,
+   "pct": 2.387
   },
   {
    "symbol": "XRPUSD",
    "qty": 10280.818698489,
    "entry": 0.950078459,
-   "price": 0.97915,
-   "value": 10066.463629,
-   "pl": 298.879243,
-   "pct": 3.06
+   "price": 0.963812,
+   "value": 9908.776431,
+   "pl": 141.192045,
+   "pct": 1.4460000000000002
   }
  ],
  "trade_count": 9,
@@ -132,6 +132,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-16T00:51:30+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-16T00:51:29+00:00",
+   "msg": "\u2014 Account $100,176.18 (+0.18% today) | stock market closed"
+  },
   {
    "t": "2026-11-15T23:50:27+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -443,10 +451,6 @@
   {
    "t": "2026-11-14T20:13:43+00:00",
    "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-14T20:13:43+00:00",
-   "msg": "\u2014 Account $99,999.86 (-0.00% today) | stock market closed"
   }
  ]
 }
