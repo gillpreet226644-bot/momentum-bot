@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:31:55+00:00",
+ "updated": "2026-11-17T23:28:02+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,13 +7,30 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98478.16,
+ "equity": 98369.61,
  "last_equity": 99213.92,
- "cash": 98478.16,
+ "cash": 88829.94,
  "market_open": false,
- "positions": [],
- "trade_count": 50,
+ "positions": [
+  {
+   "symbol": "RENDERUSD",
+   "qty": 6493.991015825,
+   "entry": 1.482,
+   "price": 1.469,
+   "value": 9539.672802,
+   "pl": -84.421883,
+   "pct": -0.877
+  }
+ ],
+ "trade_count": 51,
  "orders": [
+  {
+   "symbol": "RENDER/USD",
+   "side": "buy",
+   "qty": 6510.266682532,
+   "price": 1.482,
+   "t": "2026-11-17T23:28:02.449853336Z"
+  },
   {
    "symbol": "TSLA",
    "side": "buy",
@@ -286,13 +303,6 @@
    "qty": 15810.46009198,
    "price": 0.605596,
    "t": "2026-11-16T19:00:59.803234Z"
-  },
-  {
-   "symbol": "BAT/USD",
-   "side": "sell",
-   "qty": 104862.655791025,
-   "price": 0.09350881,
-   "t": "2026-11-16T19:00:55.458338Z"
   }
  ],
  "history": [],
@@ -303,6 +313,18 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T23:28:02+00:00",
+   "msg": "\ud83d\uded2 BOUGHT RENDER/USD (~$9,848) - up 6.6% today at $1.469"
+  },
+  {
+   "t": "2026-11-17T23:28:02+00:00",
+   "msg": "Top movers: RENDER/USD +6.6%"
+  },
+  {
+   "t": "2026-11-17T23:28:01+00:00",
+   "msg": "\u2014 Account $98,478.16 (-0.74% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T22:31:55+00:00",
    "msg": "No good movers right now. Waiting."
@@ -610,18 +632,6 @@
   {
    "t": "2026-11-16T00:51:30+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-16T00:51:29+00:00",
-   "msg": "\u2014 Account $100,176.18 (+0.18% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T23:50:27+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T23:50:27+00:00",
-   "msg": "\u2014 Account $100,220.26 (+0.22% today) | stock market closed"
   }
  ]
 }
