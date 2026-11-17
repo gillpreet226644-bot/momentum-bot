@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T05:27:04+00:00",
+ "updated": "2026-11-17T06:33:26+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99143.37,
+ "equity": 99096.19,
  "last_equity": 100000.0,
  "cash": 89444.59,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "AAVEUSD",
    "qty": 85.791974731,
    "entry": 113.599503763,
-   "price": 113.05,
-   "value": 9698.782743,
-   "pl": -47.143013,
-   "pct": -0.484
+   "price": 112.5,
+   "value": 9651.597157,
+   "pl": -94.328599,
+   "pct": -0.968
   }
  ],
  "trade_count": 25,
@@ -208,6 +208,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T06:33:26+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T06:33:24+00:00",
+   "msg": "\u2014 Account $99,096.19 (-0.90% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T05:27:04+00:00",
    "msg": "No good movers right now. Waiting."
@@ -519,14 +527,6 @@
   {
    "t": "2026-11-15T12:26:50+00:00",
    "msg": "\u2014 Account $99,998.10 (-0.00% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T11:46:21+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T11:46:20+00:00",
-   "msg": "\u2014 Account $99,944.44 (-0.06% today) | stock market closed"
   }
  ]
 }
