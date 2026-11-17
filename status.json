@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:07:21+00:00",
+ "updated": "2026-11-17T14:27:04+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99137.24,
+ "equity": 99010.3,
  "last_equity": 99213.92,
  "cash": 69975.42,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "AAVEUSD",
    "qty": 85.791974731,
    "entry": 113.599503763,
-   "price": 114.1,
-   "value": 9788.864317,
-   "pl": 42.938561,
-   "pct": 0.441
+   "price": 112.91,
+   "value": 9686.771867,
+   "pl": -59.153889,
+   "pct": -0.607
   },
   {
    "symbol": "SKYUSD",
@@ -34,10 +34,10 @@
    "symbol": "SOLUSD",
    "qty": 131.228465178,
    "entry": 74.018907683,
-   "price": 73.8393,
-   "value": 9689.818009,
-   "pl": -23.56964,
-   "pct": -0.243
+   "price": 73.65,
+   "value": 9664.97646,
+   "pl": -48.411189,
+   "pct": -0.498
   }
  ],
  "trade_count": 27,
@@ -47,14 +47,14 @@
    "side": "buy",
    "qty": 131.557358575,
    "price": 74.018907683,
-   "t": "2026-11-17T13:07:21.057937733Z"
+   "t": "2026-11-17T13:07:21.057938Z"
   },
   {
    "symbol": "SKY/USD",
    "side": "buy",
    "qty": 183307.268604877,
    "price": 0.053082419,
-   "t": "2026-11-17T13:07:20.837757647Z"
+   "t": "2026-11-17T13:07:20.837758Z"
   },
   {
    "symbol": "AAVE/USD",
@@ -240,6 +240,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T14:27:04+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T14:27:03+00:00",
+   "msg": "\u2014 Account $99,010.30 (-0.21% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T13:07:21+00:00",
    "msg": "\ud83d\uded2 BOUGHT SOL/USD (~$9,923) - up 3.2% today at $73.84"
@@ -551,14 +559,6 @@
   {
    "t": "2026-11-15T18:46:46+00:00",
    "msg": "\u2014 Account $99,560.19 (-0.44% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T18:00:03+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T18:00:03+00:00",
-   "msg": "\u2014 Account $99,841.11 (-0.16% today) | stock market closed"
   }
  ]
 }
