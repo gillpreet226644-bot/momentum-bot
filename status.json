@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:32:49+00:00",
+ "updated": "2026-11-17T17:39:58+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98939.42,
+ "equity": 98642.55,
  "last_equity": 99213.92,
  "cash": 69975.42,
  "market_open": true,
@@ -16,10 +16,10 @@
    "symbol": "AAVEUSD",
    "qty": 85.791974731,
    "entry": 113.599503763,
-   "price": 113.117,
-   "value": 9704.530806,
-   "pl": -41.39495,
-   "pct": -0.42500000000000004
+   "price": 109.61,
+   "value": 9403.65835,
+   "pl": -342.267406,
+   "pct": -3.512
   },
   {
    "symbol": "SKYUSD",
@@ -34,10 +34,10 @@
    "symbol": "SOLUSD",
    "qty": 131.228465178,
    "entry": 74.018907683,
-   "price": 72.5941,
-   "value": 9526.412324,
-   "pl": -186.975325,
-   "pct": -1.925
+   "price": 72.6246,
+   "value": 9530.414792,
+   "pl": -182.972857,
+   "pct": -1.884
   }
  ],
  "trade_count": 27,
@@ -240,6 +240,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T17:39:58+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T17:39:56+00:00",
+   "msg": "\u2014 Account $98,642.55 (-0.58% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-17T16:32:49+00:00",
    "msg": "No good movers right now. Waiting."
@@ -551,14 +559,6 @@
   {
    "t": "2026-11-15T20:41:27+00:00",
    "msg": "\u2014 Account $100,003.50 (+0.00% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T20:15:32+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T20:15:31+00:00",
-   "msg": "\u2014 Account $99,838.06 (-0.16% today) | stock market closed"
   }
  ]
 }
