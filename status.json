@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T11:59:36+00:00",
+ "updated": "2026-11-17T13:07:21+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,55 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98923.57,
+ "equity": 99137.24,
  "last_equity": 99213.92,
- "cash": 89443.56,
+ "cash": 69975.42,
  "market_open": false,
  "positions": [
   {
    "symbol": "AAVEUSD",
    "qty": 85.791974731,
    "entry": 113.599503763,
-   "price": 110.5,
-   "value": 9480.013208,
-   "pl": -265.912548,
-   "pct": -2.7279999999999998
+   "price": 114.1,
+   "value": 9788.864317,
+   "pl": 42.938561,
+   "pct": 0.441
+  },
+  {
+   "symbol": "SKYUSD",
+   "qty": 182849.000433364,
+   "entry": 0.053082419,
+   "price": 0.052957,
+   "value": 9683.134516,
+   "pl": -22.932739,
+   "pct": -0.23600000000000002
+  },
+  {
+   "symbol": "SOLUSD",
+   "qty": 131.228465178,
+   "entry": 74.018907683,
+   "price": 73.8393,
+   "value": 9689.818009,
+   "pl": -23.56964,
+   "pct": -0.243
   }
  ],
- "trade_count": 25,
+ "trade_count": 27,
  "orders": [
+  {
+   "symbol": "SOL/USD",
+   "side": "buy",
+   "qty": 131.557358575,
+   "price": 74.018907683,
+   "t": "2026-11-17T13:07:21.057937733Z"
+  },
+  {
+   "symbol": "SKY/USD",
+   "side": "buy",
+   "qty": 183307.268604877,
+   "price": 0.053082419,
+   "t": "2026-11-17T13:07:20.837757647Z"
+  },
   {
    "symbol": "AAVE/USD",
    "side": "buy",
@@ -208,6 +240,22 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T13:07:21+00:00",
+   "msg": "\ud83d\uded2 BOUGHT SOL/USD (~$9,923) - up 3.2% today at $73.84"
+  },
+  {
+   "t": "2026-11-17T13:07:20+00:00",
+   "msg": "\ud83d\uded2 BOUGHT SKY/USD (~$9,923) - up 3.5% today at $0.05296"
+  },
+  {
+   "t": "2026-11-17T13:07:20+00:00",
+   "msg": "Top movers: SKY/USD +3.5%, SOL/USD +3.2%"
+  },
+  {
+   "t": "2026-11-17T13:07:19+00:00",
+   "msg": "\u2014 Account $99,232.42 (+0.02% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T11:59:36+00:00",
    "msg": "No good movers right now. Waiting."
@@ -511,22 +559,6 @@
   {
    "t": "2026-11-15T18:00:03+00:00",
    "msg": "\u2014 Account $99,841.11 (-0.16% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T17:21:26+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T17:21:25+00:00",
-   "msg": "\u2014 Account $100,018.31 (+0.02% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T16:40:33+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T16:40:33+00:00",
-   "msg": "\u2014 Account $99,813.38 (-0.19% today) | stock market closed"
   }
  ]
 }
