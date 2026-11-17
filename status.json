@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:44:56+00:00",
+ "updated": "2026-11-17T20:36:59+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,13 +7,92 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98492.36,
+ "equity": 98488.22,
  "last_equity": 99213.92,
- "cash": 98492.36,
+ "cash": 98698.18,
  "market_open": true,
- "positions": [],
- "trade_count": 40,
+ "positions": [
+  {
+   "symbol": "AAPL",
+   "qty": -28.0,
+   "entry": 350.203572,
+   "price": 351.3776,
+   "value": -9838.5728,
+   "pl": -32.872784,
+   "pct": -0.335
+  },
+  {
+   "symbol": "MSFT",
+   "qty": 19.0,
+   "entry": 505.844737,
+   "price": 507.02,
+   "value": 9633.38,
+   "pl": 22.329997,
+   "pct": 0.232
+  },
+  {
+   "symbol": "SPY",
+   "qty": 13.0,
+   "entry": 729.588462,
+   "price": 731.98,
+   "value": 9515.74,
+   "pl": 31.089994,
+   "pct": 0.328
+  },
+  {
+   "symbol": "TSLA",
+   "qty": -25.0,
+   "entry": 379.8328,
+   "price": 380.84,
+   "value": -9521.0,
+   "pl": -25.18,
+   "pct": -0.265
+  }
+ ],
+ "trade_count": 46,
  "orders": [
+  {
+   "symbol": "SPY",
+   "side": "buy",
+   "qty": 7.0,
+   "price": 729.582857,
+   "t": "2026-11-17T20:19:34.235209Z"
+  },
+  {
+   "symbol": "SPY",
+   "side": "buy",
+   "qty": 6.0,
+   "price": 729.595,
+   "t": "2026-11-17T20:19:34.141983Z"
+  },
+  {
+   "symbol": "MSFT",
+   "side": "buy",
+   "qty": 10.0,
+   "price": 505.84,
+   "t": "2026-11-17T20:19:30.919375Z"
+  },
+  {
+   "symbol": "MSFT",
+   "side": "buy",
+   "qty": 9.0,
+   "price": 505.85,
+   "t": "2026-11-17T20:19:31.017712Z"
+  },
+  {
+   "symbol": "AAPL",
+   "side": "sell",
+   "qty": 28.0,
+   "price": 350.203572,
+   "t": "2026-11-17T19:58:22.000866Z"
+  },
+  {
+   "symbol": "TSLA",
+   "side": "sell",
+   "qty": 25.0,
+   "price": 379.8328,
+   "t": "2026-11-17T19:46:49.005541Z"
+  },
   {
    "symbol": "MSFT",
    "side": "buy",
@@ -251,48 +330,6 @@
    "qty": 10306.585161394,
    "price": 0.950078459,
    "t": "2026-11-15T02:31:54.407097Z"
-  },
-  {
-   "symbol": "FIL/USD",
-   "side": "buy",
-   "qty": 15850.085305244,
-   "price": 0.61843,
-   "t": "2026-11-15T00:17:16.61947Z"
-  },
-  {
-   "symbol": "BAT/USD",
-   "side": "buy",
-   "qty": 105100.843308989,
-   "price": 0.094457955,
-   "t": "2026-11-15T00:17:16.65529Z"
-  },
-  {
-   "symbol": "BTC/USD",
-   "side": "sell",
-   "qty": 0.00014907,
-   "price": 65539.1,
-   "t": "2026-11-14T19:52:56.026474Z"
-  },
-  {
-   "symbol": "BTC/USD",
-   "side": "buy",
-   "qty": 0.000149444,
-   "price": 65621.2,
-   "t": "2026-11-14T19:52:43.927707Z"
-  },
-  {
-   "symbol": "BTC/USD",
-   "side": "sell",
-   "qty": 0.000149276,
-   "price": 65465.65,
-   "t": "2026-11-14T19:15:41.259524Z"
-  },
-  {
-   "symbol": "BTC/USD",
-   "side": "buy",
-   "qty": 0.000149651,
-   "price": 65529.3,
-   "t": "2026-11-14T19:15:28.603308Z"
   }
  ],
  "history": [],
@@ -303,6 +340,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T20:36:59+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T20:36:58+00:00",
+   "msg": "\u2014 Account $98,488.01 (-0.73% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-17T19:44:56+00:00",
    "msg": "No good movers right now. Waiting."
@@ -614,14 +659,6 @@
   {
    "t": "2026-11-15T22:22:11+00:00",
    "msg": "\u2014 Account $100,291.79 (+0.29% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T21:39:40+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T21:39:39+00:00",
-   "msg": "\u2014 Account $99,878.84 (-0.12% today) | stock market closed"
   }
  ]
 }
