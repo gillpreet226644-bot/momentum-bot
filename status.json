@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:18:48+00:00",
+ "updated": "2026-11-17T04:21:48+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,19 +7,36 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 99214.95,
+ "equity": 99156.24,
  "last_equity": 100000.0,
- "cash": 99214.95,
+ "cash": 89444.59,
  "market_open": false,
- "positions": [],
- "trade_count": 24,
+ "positions": [
+  {
+   "symbol": "AAVEUSD",
+   "qty": 85.791974731,
+   "entry": 113.599503763,
+   "price": 113.2,
+   "value": 9711.65154,
+   "pl": -34.274216,
+   "pct": -0.35200000000000004
+  }
+ ],
+ "trade_count": 25,
  "orders": [
+  {
+   "symbol": "AAVE/USD",
+   "side": "buy",
+   "qty": 86.006992212,
+   "price": 113.599503763,
+   "t": "2026-11-17T03:32:27.323655Z"
+  },
   {
    "symbol": "SMCI",
    "side": "buy",
    "qty": 392.0,
    "price": 25.21,
-   "t": "2026-11-16T20:53:47.843189611Z"
+   "t": "2026-11-16T20:53:47.84319Z"
   },
   {
    "symbol": "NVDA",
@@ -191,6 +208,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T04:21:48+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T04:21:47+00:00",
+   "msg": "\u2014 Account $99,156.24 (-0.84% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T03:18:48+00:00",
    "msg": "No good movers right now. Waiting."
@@ -502,14 +527,6 @@
   {
    "t": "2026-11-15T11:04:07+00:00",
    "msg": "\u2014 Account $99,909.17 (-0.09% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T10:16:24+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T10:16:23+00:00",
-   "msg": "\u2014 Account $100,320.32 (+0.32% today) | stock market closed"
   }
  ]
 }
