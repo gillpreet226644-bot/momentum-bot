@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:36:20+00:00",
+ "updated": "2026-11-17T19:44:56+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,13 +7,41 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98546.3,
+ "equity": 98492.36,
  "last_equity": 99213.92,
- "cash": 98546.3,
+ "cash": 98492.36,
  "market_open": true,
  "positions": [],
- "trade_count": 36,
+ "trade_count": 40,
  "orders": [
+  {
+   "symbol": "MSFT",
+   "side": "buy",
+   "qty": 19.0,
+   "price": 505.861053,
+   "t": "2026-11-17T19:11:10.255128Z"
+  },
+  {
+   "symbol": "AMZN",
+   "side": "sell",
+   "qty": 38.0,
+   "price": 256.308947,
+   "t": "2026-11-17T18:55:17.696123Z"
+  },
+  {
+   "symbol": "AMZN",
+   "side": "buy",
+   "qty": 38.0,
+   "price": 256.607895,
+   "t": "2026-11-17T18:51:57.940394Z"
+  },
+  {
+   "symbol": "MSFT",
+   "side": "sell",
+   "qty": 19.0,
+   "price": 503.62,
+   "t": "2026-11-17T18:43:56.090127Z"
+  },
   {
    "symbol": "MSFT",
    "side": "buy",
@@ -275,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T19:44:56+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T19:44:56+00:00",
+   "msg": "\u2014 Account $98,492.36 (-0.73% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-17T18:36:20+00:00",
    "msg": "No good movers right now. Waiting."
@@ -586,14 +622,6 @@
   {
    "t": "2026-11-15T21:39:39+00:00",
    "msg": "\u2014 Account $99,878.84 (-0.12% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T20:58:46+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T20:58:45+00:00",
-   "msg": "\u2014 Account $99,927.15 (-0.07% today) | stock market closed"
   }
  ]
 }
