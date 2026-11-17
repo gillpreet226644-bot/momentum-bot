@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:36:59+00:00",
+ "updated": "2026-11-17T21:34:02+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,50 +7,41 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98488.22,
+ "equity": 98478.16,
  "last_equity": 99213.92,
- "cash": 98698.18,
- "market_open": true,
- "positions": [
+ "cash": 98478.16,
+ "market_open": false,
+ "positions": [],
+ "trade_count": 50,
+ "orders": [
   {
-   "symbol": "AAPL",
-   "qty": -28.0,
-   "entry": 350.203572,
-   "price": 351.3776,
-   "value": -9838.5728,
-   "pl": -32.872784,
-   "pct": -0.335
-  },
-  {
-   "symbol": "MSFT",
-   "qty": 19.0,
-   "entry": 505.844737,
-   "price": 507.02,
-   "value": 9633.38,
-   "pl": 22.329997,
-   "pct": 0.232
+   "symbol": "TSLA",
+   "side": "buy",
+   "qty": 25.0,
+   "price": 378.47,
+   "t": "2026-11-17T20:51:44.107315Z"
   },
   {
    "symbol": "SPY",
+   "side": "sell",
    "qty": 13.0,
-   "entry": 729.588462,
-   "price": 731.98,
-   "value": 9515.74,
-   "pl": 31.089994,
-   "pct": 0.328
+   "price": 729.86077,
+   "t": "2026-11-17T20:51:49.146952Z"
   },
   {
-   "symbol": "TSLA",
-   "qty": -25.0,
-   "entry": 379.8328,
-   "price": 380.84,
-   "value": -9521.0,
-   "pl": -25.18,
-   "pct": -0.265
-  }
- ],
- "trade_count": 46,
- "orders": [
+   "symbol": "MSFT",
+   "side": "sell",
+   "qty": 19.0,
+   "price": 504.471053,
+   "t": "2026-11-17T20:51:45.877382Z"
+  },
+  {
+   "symbol": "AAPL",
+   "side": "buy",
+   "qty": 28.0,
+   "price": 351.121786,
+   "t": "2026-11-17T20:51:39.925869Z"
+  },
   {
    "symbol": "SPY",
    "side": "buy",
@@ -302,34 +293,6 @@
    "qty": 104862.655791025,
    "price": 0.09350881,
    "t": "2026-11-16T19:00:55.458338Z"
-  },
-  {
-   "symbol": "GLD",
-   "side": "sell",
-   "qty": 28.0,
-   "price": 351.96,
-   "t": "2026-11-16T18:10:12.509662Z"
-  },
-  {
-   "symbol": "SUSHI/USD",
-   "side": "buy",
-   "qty": 63889.524681467,
-   "price": 0.156783547,
-   "t": "2026-11-15T03:27:59.783996Z"
-  },
-  {
-   "symbol": "UNI/USD",
-   "side": "buy",
-   "qty": 1958.951841459,
-   "price": 5.053978171,
-   "t": "2026-11-15T03:27:59.030372Z"
-  },
-  {
-   "symbol": "XRP/USD",
-   "side": "buy",
-   "qty": 10306.585161394,
-   "price": 0.950078459,
-   "t": "2026-11-15T02:31:54.407097Z"
   }
  ],
  "history": [],
@@ -340,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-17T21:34:02+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-17T21:34:01+00:00",
+   "msg": "\u2014 Account $98,478.16 (-0.74% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T20:36:59+00:00",
    "msg": "No good movers right now. Waiting."
@@ -651,14 +622,6 @@
   {
    "t": "2026-11-15T23:03:39+00:00",
    "msg": "\u2014 Account $100,365.44 (+0.37% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-15T22:22:11+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-15T22:22:11+00:00",
-   "msg": "\u2014 Account $100,291.79 (+0.29% today) | stock market closed"
   }
  ]
 }
