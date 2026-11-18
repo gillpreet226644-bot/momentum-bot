@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:00:21+00:00",
+ "updated": "2026-11-18T17:58:05+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,41 +7,51 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98164.55,
+ "equity": 98118.76,
  "last_equity": 98346.58745162518,
- "cash": 107263.63,
+ "cash": 91055.48,
  "market_open": true,
  "positions": [
   {
    "symbol": "MSFT",
-   "qty": 19.0,
+   "qty": 14.0,
    "entry": 503.05,
-   "price": 503.335,
-   "value": 9563.365,
-   "pl": 5.415,
-   "pct": 0.056999999999999995
-  },
+   "price": 504.52,
+   "value": 7063.28,
+   "pl": 20.58,
+   "pct": 0.292
+  }
+ ],
+ "trade_count": 62,
+ "orders": [
   {
-   "symbol": "QQQ",
-   "qty": -14.0,
-   "entry": 654.762857,
-   "price": 655.89,
-   "value": -9182.46,
-   "pl": -15.780002,
-   "pct": -0.172
+   "symbol": "SPY",
+   "side": "buy",
+   "qty": 9.0,
+   "price": 733.214444,
+   "t": "2026-11-18T17:26:09.244472Z"
   },
   {
    "symbol": "SPY",
-   "qty": -13.0,
-   "entry": 729.878462,
-   "price": 729.2001,
-   "value": -9479.6013,
-   "pl": 8.818706,
-   "pct": 0.093
-  }
- ],
- "trade_count": 58,
- "orders": [
+   "side": "buy",
+   "qty": 4.0,
+   "price": 733.225,
+   "t": "2026-11-18T17:26:09.352578Z"
+  },
+  {
+   "symbol": "QQQ",
+   "side": "buy",
+   "qty": 2.0,
+   "price": 657.31,
+   "t": "2026-11-18T17:04:11.340559Z"
+  },
+  {
+   "symbol": "QQQ",
+   "side": "buy",
+   "qty": 10.0,
+   "price": 657.403,
+   "t": "2026-11-18T17:04:07.459907Z"
+  },
   {
    "symbol": "MSFT",
    "side": "buy",
@@ -293,34 +303,6 @@
    "qty": 63.0,
    "price": 155.69,
    "t": "2026-11-16T20:53:43.089366Z"
-  },
-  {
-   "symbol": "HUBS",
-   "side": "sell",
-   "qty": 42.0,
-   "price": 231.65,
-   "t": "2026-11-16T20:53:38.172071Z"
-  },
-  {
-   "symbol": "GLD",
-   "side": "buy",
-   "qty": 28.0,
-   "price": 353.12,
-   "t": "2026-11-16T20:53:32.884244Z"
-  },
-  {
-   "symbol": "CTVA",
-   "side": "buy",
-   "qty": 1101.0,
-   "price": 8.98,
-   "t": "2026-11-16T20:53:28.401873Z"
-  },
-  {
-   "symbol": "CTVA",
-   "side": "sell",
-   "qty": 1101.0,
-   "price": 8.99,
-   "t": "2026-11-16T19:24:28.4958Z"
   }
  ],
  "history": [],
@@ -331,6 +313,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T17:58:05+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T17:58:03+00:00",
+   "msg": "\u2014 Account $98,119.04 (-0.23% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-18T17:00:21+00:00",
    "msg": "No good movers right now. Waiting."
@@ -641,14 +631,6 @@
   },
   {
    "t": "2026-11-17T01:08:35+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T01:08:35+00:00",
-   "msg": "\u2014 Account $99,214.95 (-0.79% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-16T23:59:55+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
