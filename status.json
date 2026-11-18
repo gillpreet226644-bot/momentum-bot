@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:54:06+00:00",
+ "updated": "2026-11-18T21:49:00+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -10,7 +10,7 @@
  "equity": 98163.23,
  "last_equity": 98346.58745162518,
  "cash": 98163.23,
- "market_open": true,
+ "market_open": false,
  "positions": [],
  "trade_count": 74,
  "orders": [
@@ -303,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T21:49:00+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T21:48:58+00:00",
+   "msg": "\u2014 Account $98,163.23 (-0.19% today) | stock market closed"
+  },
   {
    "t": "2026-11-18T20:54:06+00:00",
    "msg": "No good movers right now. Waiting."
@@ -613,14 +621,6 @@
   },
   {
    "t": "2026-11-17T05:27:04+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T05:27:02+00:00",
-   "msg": "\u2014 Account $99,143.37 (-0.86% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-17T04:21:48+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
