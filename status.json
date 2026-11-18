@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:28:02+00:00",
+ "updated": "2026-11-18T00:23:46+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98369.61,
+ "equity": 98348.38,
  "last_equity": 99213.92,
  "cash": 88829.94,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "RENDERUSD",
    "qty": 6493.991015825,
    "entry": 1.482,
-   "price": 1.469,
-   "value": 9539.672802,
-   "pl": -84.421883,
-   "pct": -0.877
+   "price": 1.46573,
+   "value": 9518.437452,
+   "pl": -105.657233,
+   "pct": -1.098
   }
  ],
  "trade_count": 51,
@@ -29,7 +29,7 @@
    "side": "buy",
    "qty": 6510.266682532,
    "price": 1.482,
-   "t": "2026-11-17T23:28:02.449853336Z"
+   "t": "2026-11-17T23:28:02.449853Z"
   },
   {
    "symbol": "TSLA",
@@ -313,6 +313,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T00:23:46+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T00:23:44+00:00",
+   "msg": "\u2014 Account $98,348.38 (-0.87% today) | stock market closed"
+  },
   {
    "t": "2026-11-17T23:28:02+00:00",
    "msg": "\ud83d\uded2 BOUGHT RENDER/USD (~$9,848) - up 6.6% today at $1.469"
@@ -623,14 +631,6 @@
   },
   {
    "t": "2026-11-16T02:19:15+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-16T02:19:14+00:00",
-   "msg": "\u2014 Account $100,199.68 (+0.20% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-16T00:51:30+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   }
  ]
