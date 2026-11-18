@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T02:44:27+00:00",
+ "updated": "2026-11-18T03:41:33+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,20 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98348.38,
+ "equity": 98168.27,
  "last_equity": 99213.92,
- "cash": 88829.94,
+ "cash": 98168.27,
  "market_open": false,
- "positions": [
-  {
-   "symbol": "RENDERUSD",
-   "qty": 6493.991015825,
-   "entry": 1.482,
-   "price": 1.46573,
-   "value": 9518.437452,
-   "pl": -105.657233,
-   "pct": -1.098
-  }
- ],
- "trade_count": 51,
+ "positions": [],
+ "trade_count": 52,
  "orders": [
+  {
+   "symbol": "RENDER/USD",
+   "side": "sell",
+   "qty": 6493.991015825,
+   "price": 1.4416,
+   "t": "2026-11-18T03:28:41.856454Z"
+  },
   {
    "symbol": "RENDER/USD",
    "side": "buy",
@@ -296,13 +293,6 @@
    "qty": 63768.48808982,
    "price": 0.151269588,
    "t": "2026-11-16T19:01:05.60275Z"
-  },
-  {
-   "symbol": "FIL/USD",
-   "side": "sell",
-   "qty": 15810.46009198,
-   "price": 0.605596,
-   "t": "2026-11-16T19:00:59.803234Z"
   }
  ],
  "history": [],
@@ -313,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T03:41:33+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T03:41:32+00:00",
+   "msg": "\u2014 Account $98,168.27 (-1.05% today) | stock market closed"
+  },
   {
    "t": "2026-11-18T02:44:27+00:00",
    "msg": "No good movers right now. Waiting."
@@ -623,14 +621,6 @@
   },
   {
    "t": "2026-11-16T06:15:47+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-16T06:15:47+00:00",
-   "msg": "\u2014 Account $99,876.10 (-0.12% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-16T05:02:12+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   }
  ]
