@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:19:05+00:00",
+ "updated": "2026-11-18T09:27:50+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,9 +7,9 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98168.27,
- "last_equity": 99213.92,
- "cash": 98168.27,
+ "equity": 98166.48,
+ "last_equity": 98346.58745162518,
+ "cash": 98166.48,
  "market_open": false,
  "positions": [],
  "trade_count": 52,
@@ -303,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T09:27:50+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T09:27:49+00:00",
+   "msg": "\u2014 Account $98,166.48 (-0.18% today) | stock market closed"
+  },
   {
    "t": "2026-11-18T08:19:05+00:00",
    "msg": "No good movers right now. Waiting."
@@ -613,14 +621,6 @@
   },
   {
    "t": "2026-11-16T17:47:16+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-16T17:47:15+00:00",
-   "msg": "\u2014 Account $99,682.01 (-0.32% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-16T16:42:01+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   }
  ]
