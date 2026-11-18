@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:58:05+00:00",
+ "updated": "2026-11-18T18:55:36+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,90 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98118.76,
+ "equity": 98114.43,
  "last_equity": 98346.58745162518,
- "cash": 91055.48,
+ "cash": 107529.91,
  "market_open": true,
  "positions": [
   {
-   "symbol": "MSFT",
-   "qty": 14.0,
-   "entry": 503.05,
-   "price": 504.52,
-   "value": 7063.28,
-   "pl": 20.58,
-   "pct": 0.292
+   "symbol": "AMZN",
+   "qty": 36.0,
+   "entry": 267.318889,
+   "price": 267.21,
+   "value": 9619.56,
+   "pl": -3.920004,
+   "pct": -0.041
+  },
+  {
+   "symbol": "IWM",
+   "qty": -36.0,
+   "entry": 271.629722,
+   "price": 271.67,
+   "value": -9780.12,
+   "pl": -1.450008,
+   "pct": -0.015
+  },
+  {
+   "symbol": "META",
+   "qty": -15.0,
+   "entry": 616.261333,
+   "price": 616.995,
+   "value": -9254.925,
+   "pl": -11.005005,
+   "pct": -0.11900000000000001
   }
  ],
- "trade_count": 62,
+ "trade_count": 70,
  "orders": [
+  {
+   "symbol": "META",
+   "side": "sell",
+   "qty": 10.0,
+   "price": 616.26,
+   "t": "2026-11-18T18:53:41.472881Z"
+  },
+  {
+   "symbol": "META",
+   "side": "sell",
+   "qty": 5.0,
+   "price": 616.264,
+   "t": "2026-11-18T18:53:42.482029Z"
+  },
+  {
+   "symbol": "IWM",
+   "side": "sell",
+   "qty": 24.0,
+   "price": 271.628333,
+   "t": "2026-11-18T18:53:41.673497Z"
+  },
+  {
+   "symbol": "IWM",
+   "side": "sell",
+   "qty": 12.0,
+   "price": 271.6325,
+   "t": "2026-11-18T18:53:40.29038Z"
+  },
+  {
+   "symbol": "AMZN",
+   "side": "buy",
+   "qty": 24.0,
+   "price": 267.32,
+   "t": "2026-11-18T18:25:42.249996Z"
+  },
+  {
+   "symbol": "AMZN",
+   "side": "buy",
+   "qty": 12.0,
+   "price": 267.316667,
+   "t": "2026-11-18T18:25:43.003691Z"
+  },
+  {
+   "symbol": "MSFT",
+   "side": "sell",
+   "qty": 13.0,
+   "price": 505.369231,
+   "t": "2026-11-18T18:06:45.96508Z"
+  },
   {
    "symbol": "SPY",
    "side": "buy",
@@ -58,6 +125,13 @@
    "qty": 13.0,
    "price": 503.05,
    "t": "2026-11-18T16:59:36.957308Z"
+  },
+  {
+   "symbol": "MSFT",
+   "side": "sell",
+   "qty": 6.0,
+   "price": 505.436667,
+   "t": "2026-11-18T18:04:13.665442Z"
   },
   {
    "symbol": "MSFT",
@@ -247,62 +321,6 @@
    "qty": 40.0,
    "price": 241.14,
    "t": "2026-11-17T18:10:59.048599Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "sell",
-   "qty": 19.0,
-   "price": 502.02,
-   "t": "2026-11-17T18:10:58.849896Z"
-  },
-  {
-   "symbol": "ASML",
-   "side": "sell",
-   "qty": 7.0,
-   "price": 1362.2,
-   "t": "2026-11-17T18:10:53.852953Z"
-  },
-  {
-   "symbol": "AAVE/USD",
-   "side": "sell",
-   "qty": 85.791974731,
-   "price": 109.584684788,
-   "t": "2026-11-17T18:10:21.238995Z"
-  },
-  {
-   "symbol": "SOL/USD",
-   "side": "buy",
-   "qty": 131.557358575,
-   "price": 74.018907683,
-   "t": "2026-11-17T13:07:21.057938Z"
-  },
-  {
-   "symbol": "SKY/USD",
-   "side": "buy",
-   "qty": 183307.268604877,
-   "price": 0.053082419,
-   "t": "2026-11-17T13:07:20.837758Z"
-  },
-  {
-   "symbol": "AAVE/USD",
-   "side": "buy",
-   "qty": 86.006992212,
-   "price": 113.599503763,
-   "t": "2026-11-17T03:32:27.323655Z"
-  },
-  {
-   "symbol": "SMCI",
-   "side": "buy",
-   "qty": 392.0,
-   "price": 25.21,
-   "t": "2026-11-16T20:53:47.84319Z"
-  },
-  {
-   "symbol": "NVDA",
-   "side": "buy",
-   "qty": 63.0,
-   "price": 155.69,
-   "t": "2026-11-16T20:53:43.089366Z"
   }
  ],
  "history": [],
@@ -313,6 +331,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T18:55:36+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T18:55:34+00:00",
+   "msg": "\u2014 Account $98,111.83 (-0.24% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-18T17:58:05+00:00",
    "msg": "No good movers right now. Waiting."
@@ -623,14 +649,6 @@
   },
   {
    "t": "2026-11-17T02:23:54+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T02:23:52+00:00",
-   "msg": "\u2014 Account $99,214.95 (-0.79% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-17T01:08:35+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
