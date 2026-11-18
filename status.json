@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:56:56+00:00",
+ "updated": "2026-11-18T20:54:06+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,32 +7,27 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98196.65,
+ "equity": 98163.23,
  "last_equity": 98346.58745162518,
- "cash": 97797.68,
+ "cash": 98163.23,
  "market_open": true,
- "positions": [
-  {
-   "symbol": "AMZN",
-   "qty": 36.0,
-   "entry": 267.318889,
-   "price": 267.28,
-   "value": 9622.08,
-   "pl": -1.400004,
-   "pct": -0.015
-  },
+ "positions": [],
+ "trade_count": 74,
+ "orders": [
   {
    "symbol": "META",
-   "qty": -15.0,
-   "entry": 616.261333,
-   "price": 614.93,
-   "value": -9223.95,
-   "pl": 19.969995,
-   "pct": 0.216
-  }
- ],
- "trade_count": 72,
- "orders": [
+   "side": "buy",
+   "qty": 15.0,
+   "price": 614.766666,
+   "t": "2026-11-18T20:50:54.663899Z"
+  },
+  {
+   "symbol": "AMZN",
+   "side": "sell",
+   "qty": 36.0,
+   "price": 266.306945,
+   "t": "2026-11-18T20:21:02.234466Z"
+  },
   {
    "symbol": "IWM",
    "side": "buy",
@@ -298,20 +293,6 @@
    "qty": 7.0,
    "price": 1362.638571,
    "t": "2026-11-17T18:13:44.883141Z"
-  },
-  {
-   "symbol": "ACN",
-   "side": "buy",
-   "qty": 40.0,
-   "price": 241.01,
-   "t": "2026-11-17T18:13:43.112304Z"
-  },
-  {
-   "symbol": "SOL/USD",
-   "side": "sell",
-   "qty": 131.228465178,
-   "price": 72.002668928,
-   "t": "2026-11-17T18:13:42.428526Z"
   }
  ],
  "history": [],
@@ -322,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T20:54:06+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T20:54:04+00:00",
+   "msg": "\u2014 Account $98,163.23 (-0.19% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-18T19:56:56+00:00",
    "msg": "No good movers right now. Waiting."
@@ -632,14 +621,6 @@
   },
   {
    "t": "2026-11-17T04:21:48+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T04:21:47+00:00",
-   "msg": "\u2014 Account $99,156.24 (-0.84% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-17T03:18:48+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
