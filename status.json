@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T14:54:11+00:00",
+ "updated": "2026-11-18T15:55:23+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,13 +7,37 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98166.48,
+ "equity": 98168.8,
  "last_equity": 98346.58745162518,
- "cash": 98166.48,
+ "cash": 107654.9,
  "market_open": true,
- "positions": [],
- "trade_count": 52,
+ "positions": [
+  {
+   "symbol": "SPY",
+   "qty": -13.0,
+   "entry": 729.878462,
+   "price": 729.7,
+   "value": -9486.1,
+   "pl": 2.320006,
+   "pct": 0.024
+  }
+ ],
+ "trade_count": 54,
  "orders": [
+  {
+   "symbol": "SPY",
+   "side": "sell",
+   "qty": 9.0,
+   "price": 729.82,
+   "t": "2026-11-18T15:40:18.381481569Z"
+  },
+  {
+   "symbol": "SPY",
+   "side": "sell",
+   "qty": 4.0,
+   "price": 730.01,
+   "t": "2026-11-18T15:40:17.531929Z"
+  },
   {
    "symbol": "RENDER/USD",
    "side": "sell",
@@ -279,20 +303,6 @@
    "qty": 10280.818698489,
    "price": 0.955058985,
    "t": "2026-11-16T19:01:13.622778Z"
-  },
-  {
-   "symbol": "UNI/USD",
-   "side": "sell",
-   "qty": 1954.054461855,
-   "price": 5.069268803,
-   "t": "2026-11-16T19:01:08.966929Z"
-  },
-  {
-   "symbol": "SUSHI/USD",
-   "side": "sell",
-   "qty": 63768.48808982,
-   "price": 0.151269588,
-   "t": "2026-11-16T19:01:05.60275Z"
   }
  ],
  "history": [],
@@ -303,6 +313,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-18T15:55:23+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-18T15:55:22+00:00",
+   "msg": "\u2014 Account $98,168.54 (-0.18% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-18T14:54:11+00:00",
    "msg": "No good movers right now. Waiting."
@@ -613,14 +631,6 @@
   },
   {
    "t": "2026-11-16T23:15:16+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-16T23:15:15+00:00",
-   "msg": "\u2014 Account $99,214.95 (-0.79% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-16T22:24:25+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
