@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T00:32:48+00:00",
+ "updated": "2026-11-19T01:55:00+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,30 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98251.11,
+ "equity": 98321.28,
  "last_equity": 98346.58745162518,
- "cash": 88346.92,
+ "cash": 88385.54,
  "market_open": false,
  "positions": [
   {
    "symbol": "YFIUSD",
-   "qty": 2.394421657,
-   "entry": 1754.829966464,
+   "qty": 5.533998479,
+   "entry": 1763.96051734,
    "price": 1795.4,
-   "value": 4298.944643,
-   "pl": 97.141767,
-   "pct": 2.3120000000000003
+   "value": 9935.740869,
+   "pl": 173.986049,
+   "pct": 1.7819999999999998
   }
  ],
- "trade_count": 74,
+ "trade_count": 75,
  "orders": [
+  {
+   "symbol": "YFI/USD",
+   "side": "buy",
+   "qty": 5.543049842,
+   "price": 1763.956559786,
+   "t": "2026-11-19T00:32:49.85156Z"
+  },
   {
    "symbol": "META",
    "side": "buy",
@@ -296,13 +303,6 @@
    "qty": 19.0,
    "price": 502.25,
    "t": "2026-11-17T18:13:42.988705Z"
-  },
-  {
-   "symbol": "ASML",
-   "side": "buy",
-   "qty": 7.0,
-   "price": 1362.638571,
-   "t": "2026-11-17T18:13:44.883141Z"
   }
  ],
  "history": [],
@@ -313,6 +313,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-19T01:55:00+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-19T01:54:59+00:00",
+   "msg": "\u2014 Account $98,321.28 (-0.03% today) | stock market closed"
+  },
   {
    "t": "2026-11-19T00:32:48+00:00",
    "msg": "\ud83d\uded2 BOUGHT YFI/USD (~$9,816) - up 3.7% today at $1,795"
@@ -624,14 +632,6 @@
   {
    "t": "2026-11-17T11:08:01+00:00",
    "msg": "\u2014 Account $98,923.57 (-0.29% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-17T10:03:35+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T10:03:35+00:00",
-   "msg": "\u2014 Account $99,026.78 (-0.19% today) | stock market closed"
   }
  ]
 }
