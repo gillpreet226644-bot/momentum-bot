@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:58:14+00:00",
+ "updated": "2026-11-19T15:58:54+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,36 +7,61 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97644.36,
+ "equity": 97546.99,
  "last_equity": 98320.0908691966,
- "cash": 88086.75,
+ "cash": 97546.99,
  "market_open": true,
- "positions": [
-  {
-   "symbol": "RENDERUSD",
-   "qty": 6655.71982125,
-   "entry": 1.43484,
-   "price": 1.436,
-   "value": 9557.613663,
-   "pl": 7.720635,
-   "pct": 0.08099999999999999
-  }
- ],
- "trade_count": 77,
+ "positions": [],
+ "trade_count": 82,
  "orders": [
+  {
+   "symbol": "AAPL",
+   "side": "sell",
+   "qty": 4.0,
+   "price": 348.2475,
+   "t": "2026-11-19T15:35:05.370672Z"
+  },
+  {
+   "symbol": "AAPL",
+   "side": "sell",
+   "qty": 9.0,
+   "price": 348.27,
+   "t": "2026-11-19T15:35:03.543366Z"
+  },
+  {
+   "symbol": "AAPL",
+   "side": "buy",
+   "qty": 9.0,
+   "price": 349.79,
+   "t": "2026-11-19T15:05:59.101033Z"
+  },
+  {
+   "symbol": "AAPL",
+   "side": "buy",
+   "qty": 4.0,
+   "price": 349.8,
+   "t": "2026-11-19T15:05:58.306061Z"
+  },
+  {
+   "symbol": "RENDER/USD",
+   "side": "sell",
+   "qty": 6655.71982125,
+   "price": 1.4275,
+   "t": "2026-11-19T14:59:01.976506Z"
+  },
   {
    "symbol": "RENDER/USD",
    "side": "buy",
    "qty": 6670.394689568,
    "price": 1.43484,
-   "t": "2026-11-19T14:58:14.796134724Z"
+   "t": "2026-11-19T14:58:14.796135Z"
   },
   {
    "symbol": "YFI/USD",
    "side": "sell",
    "qty": 5.533998479,
    "price": 1678.465657832,
-   "t": "2026-11-19T14:51:26.067381531Z"
+   "t": "2026-11-19T14:51:26.067382Z"
   },
   {
    "symbol": "YFI/USD",
@@ -268,41 +293,6 @@
    "qty": 9.0,
    "price": 505.85,
    "t": "2026-11-17T20:19:31.017712Z"
-  },
-  {
-   "symbol": "AAPL",
-   "side": "sell",
-   "qty": 28.0,
-   "price": 350.203572,
-   "t": "2026-11-17T19:58:22.000866Z"
-  },
-  {
-   "symbol": "TSLA",
-   "side": "sell",
-   "qty": 25.0,
-   "price": 379.8328,
-   "t": "2026-11-17T19:46:49.005541Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "buy",
-   "qty": 19.0,
-   "price": 505.861053,
-   "t": "2026-11-17T19:11:10.255128Z"
-  },
-  {
-   "symbol": "AMZN",
-   "side": "sell",
-   "qty": 38.0,
-   "price": 256.308947,
-   "t": "2026-11-17T18:55:17.696123Z"
-  },
-  {
-   "symbol": "AMZN",
-   "side": "buy",
-   "qty": 38.0,
-   "price": 256.607895,
-   "t": "2026-11-17T18:51:57.940394Z"
   }
  ],
  "history": [],
@@ -313,6 +303,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-19T15:58:54+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-19T15:58:53+00:00",
+   "msg": "\u2014 Account $97,546.99 (-0.79% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-19T14:58:14+00:00",
    "msg": "\ud83d\uded2 BOUGHT RENDER/USD (~$9,766) - up 3.3% today at $1.436"
@@ -624,14 +622,6 @@
   {
    "t": "2026-11-17T23:28:02+00:00",
    "msg": "Top movers: RENDER/USD +6.6%"
-  },
-  {
-   "t": "2026-11-17T23:28:01+00:00",
-   "msg": "\u2014 Account $98,478.16 (-0.74% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-17T22:31:55+00:00",
-   "msg": "No good movers right now. Waiting."
   }
  ]
 }
