@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T08:23:05+00:00",
+ "updated": "2026-11-19T09:35:58+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 98320.09,
+ "equity": 97955.95,
  "last_equity": 98320.0908691966,
  "cash": 88384.35,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "YFIUSD",
    "qty": 5.533998479,
    "entry": 1763.999144972,
-   "price": 1795.4,
-   "value": 9935.740869,
-   "pl": 173.772284,
-   "pct": 1.78
+   "price": 1729.6,
+   "value": 9571.603769,
+   "pl": -190.364816,
+   "pct": -1.95
   }
  ],
  "trade_count": 75,
@@ -313,6 +313,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-19T09:35:58+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-19T09:35:57+00:00",
+   "msg": "\u2014 Account $97,955.95 (-0.37% today) | stock market closed"
+  },
   {
    "t": "2026-11-19T08:23:05+00:00",
    "msg": "No good movers right now. Waiting."
@@ -624,14 +632,6 @@
   {
    "t": "2026-11-17T17:39:56+00:00",
    "msg": "\u2014 Account $98,642.55 (-0.58% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-17T16:32:49+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T16:32:47+00:00",
-   "msg": "\u2014 Account $98,939.42 (-0.28% today) | stock market OPEN"
   }
  ]
 }
