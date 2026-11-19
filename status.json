@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:00:37+00:00",
+ "updated": "2026-11-19T14:58:14+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,37 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97888.15,
+ "equity": 97644.36,
  "last_equity": 98320.0908691966,
- "cash": 88384.35,
- "market_open": false,
+ "cash": 88086.75,
+ "market_open": true,
  "positions": [
   {
-   "symbol": "YFIUSD",
-   "qty": 5.533998479,
-   "entry": 1763.999144972,
-   "price": 1717.347,
-   "value": 9503.795686,
-   "pl": -258.172899,
-   "pct": -2.645
+   "symbol": "RENDERUSD",
+   "qty": 6655.71982125,
+   "entry": 1.43484,
+   "price": 1.436,
+   "value": 9557.613663,
+   "pl": 7.720635,
+   "pct": 0.08099999999999999
   }
  ],
- "trade_count": 75,
+ "trade_count": 77,
  "orders": [
+  {
+   "symbol": "RENDER/USD",
+   "side": "buy",
+   "qty": 6670.394689568,
+   "price": 1.43484,
+   "t": "2026-11-19T14:58:14.796134724Z"
+  },
+  {
+   "symbol": "YFI/USD",
+   "side": "sell",
+   "qty": 5.533998479,
+   "price": 1678.465657832,
+   "t": "2026-11-19T14:51:26.067381531Z"
+  },
   {
    "symbol": "YFI/USD",
    "side": "buy",
@@ -289,20 +303,6 @@
    "qty": 38.0,
    "price": 256.607895,
    "t": "2026-11-17T18:51:57.940394Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "sell",
-   "qty": 19.0,
-   "price": 503.62,
-   "t": "2026-11-17T18:43:56.090127Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "buy",
-   "qty": 19.0,
-   "price": 502.25,
-   "t": "2026-11-17T18:13:42.988705Z"
   }
  ],
  "history": [],
@@ -313,6 +313,18 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-19T14:58:14+00:00",
+   "msg": "\ud83d\uded2 BOUGHT RENDER/USD (~$9,766) - up 3.3% today at $1.436"
+  },
+  {
+   "t": "2026-11-19T14:58:14+00:00",
+   "msg": "Top movers: RENDER/USD +3.3%"
+  },
+  {
+   "t": "2026-11-19T14:58:12+00:00",
+   "msg": "\u2014 Account $97,657.70 (-0.67% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-19T14:00:37+00:00",
    "msg": "No good movers right now. Waiting."
@@ -620,18 +632,6 @@
   {
    "t": "2026-11-17T22:31:55+00:00",
    "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T22:31:55+00:00",
-   "msg": "\u2014 Account $98,478.16 (-0.74% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-17T21:34:02+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-17T21:34:01+00:00",
-   "msg": "\u2014 Account $98,478.16 (-0.74% today) | stock market closed"
   }
  ]
 }
