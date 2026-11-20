@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:30:36+00:00",
+ "updated": "2026-11-20T00:21:50+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,11 +7,21 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97546.99,
+ "equity": 97619.87,
  "last_equity": 98320.0908691966,
- "cash": 97546.99,
+ "cash": 87792.29,
  "market_open": false,
- "positions": [],
+ "positions": [
+  {
+   "symbol": "GRTUSD",
+   "qty": 172231.61921342,
+   "entry": 0.017039238,
+   "price": 0.0175,
+   "value": 3014.053336,
+   "pl": 79.357785,
+   "pct": 2.704
+  }
+ ],
  "trade_count": 82,
  "orders": [
   {
@@ -303,6 +313,18 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-20T00:21:50+00:00",
+   "msg": "\ud83d\uded2 BOUGHT GRT/USD (~$9,755) - up 3.8% today at $0.0175"
+  },
+  {
+   "t": "2026-11-20T00:21:50+00:00",
+   "msg": "Top movers: GRT/USD +3.8%"
+  },
+  {
+   "t": "2026-11-20T00:21:48+00:00",
+   "msg": "\u2014 Account $97,546.99 (-0.79% today) | stock market closed"
+  },
   {
    "t": "2026-11-19T23:30:36+00:00",
    "msg": "No good movers right now. Waiting."
@@ -610,18 +632,6 @@
   {
    "t": "2026-11-18T09:27:50+00:00",
    "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-18T09:27:49+00:00",
-   "msg": "\u2014 Account $98,166.48 (-0.18% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-18T08:19:05+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-18T08:19:05+00:00",
-   "msg": "\u2014 Account $98,168.27 (-1.05% today) | stock market closed"
   }
  ]
 }
