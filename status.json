@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:43:39+00:00",
+ "updated": "2026-11-20T17:43:19+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -312,6 +312,14 @@
  },
  "log": [
   {
+   "t": "2026-11-20T17:43:19+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-20T17:43:18+00:00",
+   "msg": "\u2014 Account $96,865.08 (-0.39% today) | stock market OPEN"
+  },
+  {
    "t": "2026-11-20T16:43:39+00:00",
    "msg": "No good movers right now. Waiting."
   },
@@ -622,14 +630,6 @@
   {
    "t": "2026-11-19T01:55:00+00:00",
    "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-19T01:54:59+00:00",
-   "msg": "\u2014 Account $98,321.28 (-0.03% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-19T00:32:48+00:00",
-   "msg": "\ud83d\uded2 BOUGHT YFI/USD (~$9,816) - up 3.7% today at $1,795"
   }
  ]
 }
