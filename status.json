@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:39:38+00:00",
+ "updated": "2026-11-20T05:44:59+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,20 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96919.63,
+ "equity": 96865.19,
  "last_equity": 98320.0908691966,
- "cash": 94343.91,
+ "cash": 96865.19,
  "market_open": false,
- "positions": [
-  {
-   "symbol": "GRTUSD",
-   "qty": 158164.891824116,
-   "entry": 0.017142093,
-   "price": 0.016285,
-   "value": 2575.715263,
-   "pl": -135.562022,
-   "pct": -5.0
-  }
- ],
- "trade_count": 83,
+ "positions": [],
+ "trade_count": 84,
  "orders": [
+  {
+   "symbol": "GRT/USD",
+   "side": "sell",
+   "qty": 566709.006137384,
+   "price": 0.01598861,
+   "t": "2026-11-20T04:39:43.748389Z"
+  },
   {
    "symbol": "GRT/USD",
    "side": "buy",
@@ -296,13 +293,6 @@
    "qty": 6.0,
    "price": 729.595,
    "t": "2026-11-17T20:19:34.141983Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "buy",
-   "qty": 10.0,
-   "price": 505.84,
-   "t": "2026-11-17T20:19:30.919375Z"
   }
  ],
  "history": [],
@@ -321,6 +311,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-20T05:44:59+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-20T05:44:59+00:00",
+   "msg": "\u2014 Account $96,865.19 (-1.48% today) | stock market closed"
+  },
   {
    "t": "2026-11-20T04:39:38+00:00",
    "msg": "No good movers right now. Waiting."
@@ -632,14 +630,6 @@
   {
    "t": "2026-11-18T15:55:22+00:00",
    "msg": "\u2014 Account $98,168.54 (-0.18% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-18T14:54:11+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-18T14:54:08+00:00",
-   "msg": "\u2014 Account $98,166.48 (-0.18% today) | stock market OPEN"
   }
  ]
 }
