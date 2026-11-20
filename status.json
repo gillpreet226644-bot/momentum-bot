@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T03:34:42+00:00",
+ "updated": "2026-11-20T04:39:38+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,19 +7,19 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97239.82,
+ "equity": 96919.63,
  "last_equity": 98320.0908691966,
- "cash": 87817.77,
+ "cash": 94343.91,
  "market_open": false,
  "positions": [
   {
    "symbol": "GRTUSD",
-   "qty": 566709.006137384,
+   "qty": 158164.891824116,
    "entry": 0.017142093,
-   "price": 0.0166259,
-   "value": 9422.047265,
-   "pl": -292.531222,
-   "pct": -3.011
+   "price": 0.016285,
+   "value": 2575.715263,
+   "pl": -135.562022,
+   "pct": -5.0
   }
  ],
  "trade_count": 83,
@@ -306,13 +306,33 @@
   }
  ],
  "history": [],
- "closed": [],
+ "closed": [
+  {
+   "symbol": "GRTUSD",
+   "pl": -485.72,
+   "pct": -5.0,
+   "reason": "stop-loss",
+   "t": "2026-11-20T04:39:37+00:00"
+  }
+ ],
  "totals": {
-  "closed": 0,
+  "closed": 1,
   "wins": 0,
-  "realized": 0.0
+  "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-20T04:39:38+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-20T04:39:37+00:00",
+   "msg": "\ud83d\udcb0 SOLD GRTUSD - stop-loss (-5.0%), profit/loss $-485.72"
+  },
+  {
+   "t": "2026-11-20T04:39:37+00:00",
+   "msg": "\u2014 Account $97,046.63 (-1.30% today) | stock market closed"
+  },
   {
    "t": "2026-11-20T03:34:42+00:00",
    "msg": "No good movers right now. Waiting."
@@ -620,18 +640,6 @@
   {
    "t": "2026-11-18T14:54:08+00:00",
    "msg": "\u2014 Account $98,166.48 (-0.18% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-18T13:56:29+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-18T13:56:29+00:00",
-   "msg": "\u2014 Account $98,166.48 (-0.18% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-18T12:36:37+00:00",
-   "msg": "No good movers right now. Waiting."
   }
  ]
 }
