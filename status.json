@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:21:50+00:00",
+ "updated": "2026-11-20T01:42:49+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,23 +7,30 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97619.87,
+ "equity": 97239.82,
  "last_equity": 98320.0908691966,
- "cash": 87792.29,
+ "cash": 87817.77,
  "market_open": false,
  "positions": [
   {
    "symbol": "GRTUSD",
-   "qty": 172231.61921342,
-   "entry": 0.017039238,
-   "price": 0.0175,
-   "value": 3014.053336,
-   "pl": 79.357785,
-   "pct": 2.704
+   "qty": 566709.006137384,
+   "entry": 0.017142093,
+   "price": 0.0166259,
+   "value": 9422.047265,
+   "pl": -292.531222,
+   "pct": -3.011
   }
  ],
- "trade_count": 82,
+ "trade_count": 83,
  "orders": [
+  {
+   "symbol": "GRT/USD",
+   "side": "buy",
+   "qty": 567562.692732879,
+   "price": 0.017142062,
+   "t": "2026-11-20T00:21:52.46875Z"
+  },
   {
    "symbol": "AAPL",
    "side": "sell",
@@ -296,13 +303,6 @@
    "qty": 10.0,
    "price": 505.84,
    "t": "2026-11-17T20:19:30.919375Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "buy",
-   "qty": 9.0,
-   "price": 505.85,
-   "t": "2026-11-17T20:19:31.017712Z"
   }
  ],
  "history": [],
@@ -313,6 +313,14 @@
   "realized": 0.0
  },
  "log": [
+  {
+   "t": "2026-11-20T01:42:49+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-20T01:42:48+00:00",
+   "msg": "\u2014 Account $97,239.82 (-1.10% today) | stock market closed"
+  },
   {
    "t": "2026-11-20T00:21:50+00:00",
    "msg": "\ud83d\uded2 BOUGHT GRT/USD (~$9,755) - up 3.8% today at $0.0175"
@@ -623,14 +631,6 @@
   },
   {
    "t": "2026-11-18T10:32:34+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-18T10:32:33+00:00",
-   "msg": "\u2014 Account $98,166.48 (-0.18% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-18T09:27:50+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
