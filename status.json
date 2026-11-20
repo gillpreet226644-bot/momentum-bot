@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:48:34+00:00",
+ "updated": "2026-11-20T15:44:10+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -312,6 +312,14 @@
  },
  "log": [
   {
+   "t": "2026-11-20T15:44:10+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-20T15:44:09+00:00",
+   "msg": "\u2014 Account $96,865.08 (-0.39% today) | stock market OPEN"
+  },
+  {
    "t": "2026-11-20T14:48:34+00:00",
    "msg": "No good movers right now. Waiting."
   },
@@ -621,14 +629,6 @@
   },
   {
    "t": "2026-11-19T00:32:45+00:00",
-   "msg": "\u2014 Account $98,163.23 (-0.19% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-18T23:34:38+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-18T23:34:37+00:00",
    "msg": "\u2014 Account $98,163.23 (-0.19% today) | stock market closed"
   }
  ]
