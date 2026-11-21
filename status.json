@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:12:09+00:00",
+ "updated": "2026-11-21T13:21:14+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,13 +7,30 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96865.08,
+ "equity": 96829.79,
  "last_equity": 96865.08,
- "cash": 87178.57,
+ "cash": 77678.84,
  "market_open": false,
- "positions": [],
- "trade_count": 84,
+ "positions": [
+  {
+   "symbol": "ETHUSD",
+   "qty": 5.669331083,
+   "entry": 1671.947881989,
+   "price": 1669.41,
+   "value": 9464.438003,
+   "pl": -14.388094,
+   "pct": -0.152
+  }
+ ],
+ "trade_count": 85,
  "orders": [
+  {
+   "symbol": "ETH/USD",
+   "side": "buy",
+   "qty": 5.681831113,
+   "price": 1671.947881989,
+   "t": "2026-11-21T13:21:14.620328165Z"
+  },
   {
    "symbol": "GRT/USD",
    "side": "sell",
@@ -286,13 +303,6 @@
    "qty": 7.0,
    "price": 729.582857,
    "t": "2026-11-17T20:19:34.235209Z"
-  },
-  {
-   "symbol": "SPY",
-   "side": "buy",
-   "qty": 6.0,
-   "price": 729.595,
-   "t": "2026-11-17T20:19:34.141983Z"
   }
  ],
  "history": [],
@@ -311,6 +321,18 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-21T13:21:14+00:00",
+   "msg": "\ud83d\uded2 BOUGHT ETH/USD (~$9,687) - up 3.1% today at $1,669"
+  },
+  {
+   "t": "2026-11-21T13:21:14+00:00",
+   "msg": "Top movers: ETH/USD +3.1%"
+  },
+  {
+   "t": "2026-11-21T13:21:13+00:00",
+   "msg": "\u2014 Account $96,865.08 (+0.00% today) | stock market closed"
+  },
   {
    "t": "2026-11-21T12:12:09+00:00",
    "msg": "No good movers right now. Waiting."
@@ -618,18 +640,6 @@
   {
    "t": "2026-11-19T23:30:35+00:00",
    "msg": "\u2014 Account $97,546.99 (-0.79% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-19T22:47:56+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-19T22:47:55+00:00",
-   "msg": "\u2014 Account $97,546.99 (-0.79% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-19T21:55:11+00:00",
-   "msg": "No good movers right now. Waiting."
   }
  ]
 }
