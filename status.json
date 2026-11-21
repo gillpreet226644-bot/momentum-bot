@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:21:14+00:00",
+ "updated": "2026-11-21T14:17:56+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,29 +7,45 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96829.79,
+ "equity": 96932.29,
  "last_equity": 96865.08,
- "cash": 77678.84,
+ "cash": 67985.61,
  "market_open": false,
  "positions": [
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1669.41,
-   "value": 9464.438003,
-   "pl": -14.388094,
-   "pct": -0.152
+   "price": 1687.49,
+   "value": 9566.939509,
+   "pl": 88.113412,
+   "pct": 0.9299999999999999
+  },
+  {
+   "symbol": "UNIUSD",
+   "qty": 2008.293823002,
+   "entry": 4.748199883,
+   "price": 4.73206,
+   "value": 9503.366868,
+   "pl": -32.413627,
+   "pct": -0.33999999999999997
   }
  ],
- "trade_count": 85,
+ "trade_count": 86,
  "orders": [
+  {
+   "symbol": "UNI/USD",
+   "side": "buy",
+   "qty": 2012.721810987,
+   "price": 4.748199883,
+   "t": "2026-11-21T14:17:56.859493606Z"
+  },
   {
    "symbol": "ETH/USD",
    "side": "buy",
    "qty": 5.681831113,
    "price": 1671.947881989,
-   "t": "2026-11-21T13:21:14.620328165Z"
+   "t": "2026-11-21T13:21:14.620328Z"
   },
   {
    "symbol": "GRT/USD",
@@ -296,13 +312,6 @@
    "qty": 28.0,
    "price": 351.121786,
    "t": "2026-11-17T20:51:39.925869Z"
-  },
-  {
-   "symbol": "SPY",
-   "side": "buy",
-   "qty": 7.0,
-   "price": 729.582857,
-   "t": "2026-11-17T20:19:34.235209Z"
   }
  ],
  "history": [],
@@ -321,6 +330,18 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-21T14:17:56+00:00",
+   "msg": "\ud83d\uded2 BOUGHT UNI/USD (~$9,693) - up 5.9% today at $4.732"
+  },
+  {
+   "t": "2026-11-21T14:17:56+00:00",
+   "msg": "Top movers: UNI/USD +5.9%"
+  },
+  {
+   "t": "2026-11-21T14:17:56+00:00",
+   "msg": "\u2014 Account $96,932.29 (+0.07% today) | stock market closed"
+  },
   {
    "t": "2026-11-21T13:21:14+00:00",
    "msg": "\ud83d\uded2 BOUGHT ETH/USD (~$9,687) - up 3.1% today at $1,669"
@@ -628,18 +649,6 @@
   {
    "t": "2026-11-20T00:21:50+00:00",
    "msg": "Top movers: GRT/USD +3.8%"
-  },
-  {
-   "t": "2026-11-20T00:21:48+00:00",
-   "msg": "\u2014 Account $97,546.99 (-0.79% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-19T23:30:36+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-19T23:30:35+00:00",
-   "msg": "\u2014 Account $97,546.99 (-0.79% today) | stock market closed"
   }
  ]
 }
