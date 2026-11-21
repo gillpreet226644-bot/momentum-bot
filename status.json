@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:17:56+00:00",
+ "updated": "2026-11-21T15:11:23+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,28 +7,28 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96932.29,
+ "equity": 96920.26,
  "last_equity": 96865.08,
- "cash": 67985.61,
+ "cash": 68122.03,
  "market_open": false,
  "positions": [
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1687.49,
-   "value": 9566.939509,
-   "pl": 88.113412,
-   "pct": 0.9299999999999999
+   "price": 1688.44,
+   "value": 9572.325374,
+   "pl": 93.499277,
+   "pct": 0.9860000000000001
   },
   {
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.73206,
-   "value": 9503.366868,
-   "pl": -32.413627,
-   "pct": -0.33999999999999997
+   "price": 4.75,
+   "value": 9539.395659,
+   "pl": 3.615164,
+   "pct": 0.038
   }
  ],
  "trade_count": 86,
@@ -38,7 +38,7 @@
    "side": "buy",
    "qty": 2012.721810987,
    "price": 4.748199883,
-   "t": "2026-11-21T14:17:56.859493606Z"
+   "t": "2026-11-21T14:17:56.859494Z"
   },
   {
    "symbol": "ETH/USD",
@@ -330,6 +330,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-21T15:11:23+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-21T15:11:23+00:00",
+   "msg": "\u2014 Account $96,920.26 (+0.06% today) | stock market closed"
+  },
   {
    "t": "2026-11-21T14:17:56+00:00",
    "msg": "\ud83d\uded2 BOUGHT UNI/USD (~$9,693) - up 5.9% today at $4.732"
@@ -641,14 +649,6 @@
   {
    "t": "2026-11-20T01:42:48+00:00",
    "msg": "\u2014 Account $97,239.82 (-1.10% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-20T00:21:50+00:00",
-   "msg": "\ud83d\uded2 BOUGHT GRT/USD (~$9,755) - up 3.8% today at $0.0175"
-  },
-  {
-   "t": "2026-11-20T00:21:50+00:00",
-   "msg": "Top movers: GRT/USD +3.8%"
   }
  ]
 }
