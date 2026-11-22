@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:12:32+00:00",
+ "updated": "2026-11-22T13:20:07+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97057.55,
+ "equity": 96934.43,
  "last_equity": 96865.08,
  "cash": 58645.09,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1705.0,
-   "value": 9666.209497,
-   "pl": 187.3834,
-   "pct": 1.9769999999999999
+   "price": 1705.8,
+   "value": 9670.744961,
+   "pl": 191.918864,
+   "pct": 2.025
   },
   {
    "symbol": "RENDERUSD",
@@ -34,10 +34,10 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.73026,
-   "value": 9499.751939,
-   "pl": -36.028556,
-   "pct": -0.378
+   "price": 4.6667,
+   "value": 9372.104784,
+   "pl": -163.675711,
+   "pct": -1.7160000000000002
   }
  ],
  "trade_count": 87,
@@ -339,6 +339,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-22T13:20:07+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-22T13:20:06+00:00",
+   "msg": "\u2014 Account $96,934.43 (+0.07% today) | stock market closed"
+  },
   {
    "t": "2026-11-22T12:12:32+00:00",
    "msg": "No good movers right now. Waiting."
@@ -649,14 +657,6 @@
   },
   {
    "t": "2026-11-21T02:30:20+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-21T02:30:18+00:00",
-   "msg": "\u2014 Account $96,865.08 (-0.39% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-21T01:29:54+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
