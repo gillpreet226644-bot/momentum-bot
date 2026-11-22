@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:57:08+00:00",
+ "updated": "2026-11-22T08:50:37+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,32 +7,48 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96427.18,
+ "equity": 96740.68,
  "last_equity": 96865.08,
- "cash": 68122.03,
+ "cash": 58645.09,
  "market_open": false,
  "positions": [
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1660.66,
-   "value": 9414.831356,
-   "pl": -63.994741,
-   "pct": -0.675
+   "price": 1687.955,
+   "value": 9569.575748,
+   "pl": 90.749651,
+   "pct": 0.9570000000000001
+  },
+  {
+   "symbol": "RENDERUSD",
+   "qty": 7067.335059772,
+   "entry": 1.338,
+   "price": 1.3527,
+   "value": 9559.984135,
+   "pl": 103.889825,
+   "pct": 1.099
   },
   {
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.5829,
-   "value": 9203.809761,
-   "pl": -331.970734,
-   "pct": -3.481
+   "price": 4.6206,
+   "value": 9279.522439,
+   "pl": -256.258056,
+   "pct": -2.6870000000000003
   }
  ],
- "trade_count": 86,
+ "trade_count": 87,
  "orders": [
+  {
+   "symbol": "RENDER/USD",
+   "side": "buy",
+   "qty": 7082.917478225,
+   "price": 1.338,
+   "t": "2026-11-22T08:50:36.996520688Z"
+  },
   {
    "symbol": "UNI/USD",
    "side": "buy",
@@ -305,13 +321,6 @@
    "qty": 19.0,
    "price": 504.471053,
    "t": "2026-11-17T20:51:45.877382Z"
-  },
-  {
-   "symbol": "AAPL",
-   "side": "buy",
-   "qty": 28.0,
-   "price": 351.121786,
-   "t": "2026-11-17T20:51:39.925869Z"
   }
  ],
  "history": [],
@@ -330,6 +339,18 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-22T08:50:37+00:00",
+   "msg": "\ud83d\uded2 BOUGHT RENDER/USD (~$9,666) - up 3.7% today at $1.353"
+  },
+  {
+   "t": "2026-11-22T08:50:36+00:00",
+   "msg": "Top movers: RENDER/USD +3.7%"
+  },
+  {
+   "t": "2026-11-22T08:50:36+00:00",
+   "msg": "\u2014 Account $96,657.64 (-0.21% today) | stock market closed"
+  },
   {
    "t": "2026-11-22T07:57:08+00:00",
    "msg": "No good movers right now. Waiting."
@@ -637,18 +658,6 @@
   {
    "t": "2026-11-20T22:25:03+00:00",
    "msg": "\u2014 Account $96,865.08 (-0.39% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-20T21:29:30+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-20T21:29:29+00:00",
-   "msg": "\u2014 Account $96,865.08 (-0.39% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-20T20:36:02+00:00",
-   "msg": "No good movers right now. Waiting."
   }
  ]
 }
