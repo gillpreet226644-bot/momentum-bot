@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:54:19+00:00",
+ "updated": "2026-11-22T21:38:39+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,28 +7,28 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97140.84,
+ "equity": 97201.15,
  "last_equity": 96865.08,
- "cash": 48936.68,
+ "cash": 48996.55,
  "market_open": false,
  "positions": [
   {
    "symbol": "BATUSD",
-   "qty": 80709.665884833,
-   "entry": 0.081604274,
+   "qty": 117677.409926062,
+   "entry": 0.081836843,
    "price": 0.0824874,
-   "value": 6657.530494,
-   "pl": 71.276805,
-   "pct": 1.082
+   "value": 9706.903584,
+   "pl": 76.555863,
+   "pct": 0.795
   },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1714.38,
-   "value": 9719.387822,
-   "pl": 240.561725,
-   "pct": 2.538
+   "price": 1719.84,
+   "value": 9750.34237,
+   "pl": 271.516273,
+   "pct": 2.864
   },
   {
    "symbol": "RENDERUSD",
@@ -43,14 +43,21 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.717,
-   "value": 9473.121963,
-   "pl": -62.658532,
-   "pct": -0.657
+   "price": 4.73081,
+   "value": 9500.856501,
+   "pl": -34.923994,
+   "pct": -0.366
   }
  ],
- "trade_count": 87,
+ "trade_count": 88,
  "orders": [
+  {
+   "symbol": "BAT/USD",
+   "side": "buy",
+   "qty": 117899.777277441,
+   "price": 0.081836684,
+   "t": "2026-11-22T20:54:21.094793Z"
+  },
   {
    "symbol": "RENDER/USD",
    "side": "buy",
@@ -323,13 +330,6 @@
    "qty": 13.0,
    "price": 729.86077,
    "t": "2026-11-17T20:51:49.146952Z"
-  },
-  {
-   "symbol": "MSFT",
-   "side": "sell",
-   "qty": 19.0,
-   "price": 504.471053,
-   "t": "2026-11-17T20:51:45.877382Z"
   }
  ],
  "history": [],
@@ -348,6 +348,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-22T21:38:39+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-22T21:38:39+00:00",
+   "msg": "\u2014 Account $97,201.15 (+0.35% today) | stock market closed"
+  },
   {
    "t": "2026-11-22T20:54:19+00:00",
    "msg": "\ud83d\uded2 BOUGHT BAT/USD (~$9,708) - up 4.5% today at $0.08249"
@@ -658,14 +666,6 @@
   },
   {
    "t": "2026-11-21T13:21:13+00:00",
-   "msg": "\u2014 Account $96,865.08 (+0.00% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-21T12:12:09+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-21T12:12:08+00:00",
    "msg": "\u2014 Account $96,865.08 (+0.00% today) | stock market closed"
   }
  ]
