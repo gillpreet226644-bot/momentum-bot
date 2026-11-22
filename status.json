@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:31:34+00:00",
+ "updated": "2026-11-22T11:24:04+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97059.97,
+ "equity": 97065.78,
  "last_equity": 96865.08,
  "cash": 58645.09,
  "market_open": false,
@@ -16,10 +16,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1708.7,
-   "value": 9687.186022,
-   "pl": 208.359925,
-   "pct": 2.198
+   "price": 1709.202,
+   "value": 9690.032026,
+   "pl": 211.205929,
+   "pct": 2.228
   },
   {
    "symbol": "RENDERUSD",
@@ -34,10 +34,10 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.72102,
-   "value": 9481.195304,
-   "pl": -54.585191,
-   "pct": -0.5720000000000001
+   "price": 4.7225,
+   "value": 9484.167579,
+   "pl": -51.612916,
+   "pct": -0.541
   }
  ],
  "trade_count": 87,
@@ -339,6 +339,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-22T11:24:04+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-22T11:24:03+00:00",
+   "msg": "\u2014 Account $97,065.78 (+0.21% today) | stock market closed"
+  },
   {
    "t": "2026-11-22T10:31:34+00:00",
    "msg": "No good movers right now. Waiting."
@@ -650,14 +658,6 @@
   {
    "t": "2026-11-21T00:09:53+00:00",
    "msg": "\ud83d\uded2 BOUGHT LDO/USD (~$9,687) - up 6.6% today at $0.256"
-  },
-  {
-   "t": "2026-11-21T00:09:53+00:00",
-   "msg": "Top movers: LDO/USD +6.6%"
-  },
-  {
-   "t": "2026-11-21T00:09:52+00:00",
-   "msg": "\u2014 Account $96,865.08 (-0.39% today) | stock market closed"
   }
  ]
 }
