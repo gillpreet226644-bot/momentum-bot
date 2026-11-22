@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:26:44+00:00",
+ "updated": "2026-11-22T23:18:02+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96989.99,
+ "equity": 97005.13,
  "last_equity": 96865.08,
  "cash": 48996.55,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1711.829,
-   "value": 9704.925358,
-   "pl": 226.099261,
-   "pct": 2.385
+   "price": 1714.5,
+   "value": 9720.068142,
+   "pl": 241.242045,
+   "pct": 2.545
   },
   {
    "symbol": "RENDERUSD",
@@ -349,6 +349,14 @@
  },
  "log": [
   {
+   "t": "2026-11-22T23:18:02+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-22T23:18:01+00:00",
+   "msg": "\u2014 Account $97,005.13 (+0.14% today) | stock market closed"
+  },
+  {
    "t": "2026-11-22T22:26:44+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -659,14 +667,6 @@
   {
    "t": "2026-11-21T14:17:56+00:00",
    "msg": "Top movers: UNI/USD +5.9%"
-  },
-  {
-   "t": "2026-11-21T14:17:56+00:00",
-   "msg": "\u2014 Account $96,932.29 (+0.07% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-21T13:21:14+00:00",
-   "msg": "\ud83d\uded2 BOUGHT ETH/USD (~$9,687) - up 3.1% today at $1,669"
   }
  ]
 }
