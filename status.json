@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:27:58+00:00",
+ "updated": "2026-11-23T08:57:51+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97065.23,
+ "equity": 97042.77,
  "last_equity": 96865.08,
  "cash": 48996.55,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1723.2,
-   "value": 9769.391322,
-   "pl": 290.565225,
-   "pct": 3.065
+   "price": 1721.895,
+   "value": 9761.992845,
+   "pl": 283.166748,
+   "pct": 2.987
   },
   {
    "symbol": "RENDERUSD",
@@ -43,10 +43,10 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.7652,
-   "value": 9569.921725,
-   "pl": 34.14123,
-   "pct": 0.358
+   "price": 4.7577,
+   "value": 9554.859522,
+   "pl": 19.079027,
+   "pct": 0.2
   }
  ],
  "trade_count": 88,
@@ -348,6 +348,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-23T08:57:51+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-23T08:57:50+00:00",
+   "msg": "\u2014 Account $97,042.77 (+0.18% today) | stock market closed"
+  },
   {
    "t": "2026-11-23T07:27:58+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -659,14 +667,6 @@
   {
    "t": "2026-11-21T20:46:26+00:00",
    "msg": "\u2014 Account $96,853.96 (-0.01% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-21T20:02:13+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-21T20:02:12+00:00",
-   "msg": "\u2014 Account $96,861.69 (-0.00% today) | stock market closed"
   }
  ]
 }
