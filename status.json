@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:54:59+00:00",
+ "updated": "2026-11-23T14:59:10+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,46 +7,46 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96943.99,
+ "equity": 98864.45,
  "last_equity": 96865.08,
  "cash": 48996.55,
- "market_open": false,
+ "market_open": true,
  "positions": [
   {
    "symbol": "BATUSD",
    "qty": 117677.409926062,
    "entry": 0.081836843,
-   "price": 0.0824874,
-   "value": 9706.903584,
-   "pl": 76.555863,
-   "pct": 0.795
+   "price": 0.082664329,
+   "value": 9727.72413,
+   "pl": 97.376409,
+   "pct": 1.011
   },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1719.4,
-   "value": 9747.847864,
-   "pl": 269.021767,
-   "pct": 2.838
+   "price": 1777.1,
+   "value": 10074.968268,
+   "pl": 596.142171,
+   "pct": 6.289
   },
   {
    "symbol": "RENDERUSD",
    "qty": 7067.335059772,
    "entry": 1.338,
-   "price": 1.321,
-   "value": 9335.949614,
-   "pl": -120.144696,
-   "pct": -1.2710000000000001
+   "price": 1.40795,
+   "value": 9950.454397,
+   "pl": 494.360087,
+   "pct": 5.228
   },
   {
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.71556,
-   "value": 9470.23002,
-   "pl": -65.550475,
-   "pct": -0.687
+   "price": 5.19259,
+   "value": 10428.246422,
+   "pl": 892.465927,
+   "pct": 9.359
   }
  ],
  "trade_count": 88,
@@ -348,6 +348,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-23T14:59:10+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-23T14:59:09+00:00",
+   "msg": "\u2014 Account $98,864.45 (+2.06% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-23T13:54:59+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -659,14 +667,6 @@
   {
    "t": "2026-11-22T00:23:54+00:00",
    "msg": "\u2014 Account $96,832.59 (-0.03% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-21T23:41:29+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-21T23:41:28+00:00",
-   "msg": "\u2014 Account $96,842.76 (-0.02% today) | stock market closed"
   }
  ]
 }
