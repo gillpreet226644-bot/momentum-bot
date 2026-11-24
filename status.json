@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:16:13+00:00",
+ "updated": "2026-11-24T00:09:40+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97334.48,
+ "equity": 97282.23,
  "last_equity": 96865.08,
  "cash": 48996.55,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.947881989,
-   "price": 1715.88,
-   "value": 9727.891819,
-   "pl": 249.065722,
-   "pct": 2.628
+   "price": 1704.582,
+   "value": 9663.839716,
+   "pl": 185.013619,
+   "pct": 1.952
   },
   {
    "symbol": "RENDERUSD",
@@ -43,10 +43,10 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748199883,
-   "price": 4.7959,
-   "value": 9631.576346,
-   "pl": 95.795851,
-   "pct": 1.005
+   "price": 4.80178,
+   "value": 9643.385113,
+   "pl": 107.604618,
+   "pct": 1.1280000000000001
   }
  ],
  "trade_count": 88,
@@ -348,6 +348,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-24T00:09:40+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-24T00:09:39+00:00",
+   "msg": "\u2014 Account $97,282.23 (+0.43% today) | stock market closed"
+  },
   {
    "t": "2026-11-23T23:16:13+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -659,14 +667,6 @@
   {
    "t": "2026-11-22T08:50:37+00:00",
    "msg": "\ud83d\uded2 BOUGHT RENDER/USD (~$9,666) - up 3.7% today at $1.353"
-  },
-  {
-   "t": "2026-11-22T08:50:36+00:00",
-   "msg": "Top movers: RENDER/USD +3.7%"
-  },
-  {
-   "t": "2026-11-22T08:50:36+00:00",
-   "msg": "\u2014 Account $96,657.64 (-0.21% today) | stock market closed"
   }
  ]
 }
