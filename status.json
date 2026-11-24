@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:34:24+00:00",
+ "updated": "2026-11-24T10:35:12+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 97107.99,
+ "equity": 96561.92,
  "last_equity": 97152.47591253331,
  "cash": 48996.55,
  "market_open": false,
@@ -16,19 +16,19 @@
    "symbol": "BATUSD",
    "qty": 117677.409926062,
    "entry": 0.081839059,
-   "price": 0.0822936,
-   "value": 9684.097701,
-   "pl": 53.489207,
-   "pct": 0.555
+   "price": 0.078389,
+   "value": 9224.614487,
+   "pl": -405.994007,
+   "pct": -4.216
   },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1681.43,
-   "value": 9532.583363,
-   "pl": 53.755293,
-   "pct": 0.567
+   "price": 1682.7,
+   "value": 9539.783413,
+   "pl": 60.955343,
+   "pct": 0.643
   },
   {
    "symbol": "RENDERUSD",
@@ -43,10 +43,10 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748251256,
-   "price": 4.8021,
-   "value": 9644.027767,
-   "pl": 108.1441,
-   "pct": 1.134
+   "price": 4.7554,
+   "value": 9550.240446,
+   "pl": 14.356779,
+   "pct": 0.151
   }
  ],
  "trade_count": 88,
@@ -348,6 +348,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-24T10:35:12+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-24T10:35:12+00:00",
+   "msg": "\u2014 Account $96,561.92 (-0.61% today) | stock market closed"
+  },
   {
    "t": "2026-11-24T09:34:24+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -658,14 +666,6 @@
   },
   {
    "t": "2026-11-22T16:46:24+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-22T16:46:23+00:00",
-   "msg": "\u2014 Account $97,116.52 (+0.26% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-22T15:57:44+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
