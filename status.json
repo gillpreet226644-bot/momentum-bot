@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:27:53+00:00",
+ "updated": "2026-11-24T17:27:33+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96337.13,
+ "equity": 96398.96,
  "last_equity": 97152.47591253331,
  "cash": 48996.55,
  "market_open": true,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1674.4,
-   "value": 9492.727965,
-   "pl": 13.899895,
-   "pct": 0.147
+   "price": 1674.2,
+   "value": 9491.594099,
+   "pl": 12.766029,
+   "pct": 0.135
   },
   {
    "symbol": "RENDERUSD",
@@ -43,10 +43,10 @@
    "symbol": "UNIUSD",
    "qty": 2008.293823002,
    "entry": 4.748251256,
-   "price": 4.6669,
-   "value": 9372.506443,
-   "pl": -163.377224,
-   "pct": -1.7129999999999999
+   "price": 4.69825,
+   "value": 9435.466454,
+   "pl": -100.417213,
+   "pct": -1.053
   }
  ],
  "trade_count": 88,
@@ -348,6 +348,14 @@
   "realized": -485.72
  },
  "log": [
+  {
+   "t": "2026-11-24T17:27:33+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-24T17:27:32+00:00",
+   "msg": "\u2014 Account $96,398.96 (-0.78% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-24T16:27:53+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -659,14 +667,6 @@
   {
    "t": "2026-11-22T21:38:39+00:00",
    "msg": "\u2014 Account $97,201.15 (+0.35% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-22T20:54:19+00:00",
-   "msg": "\ud83d\uded2 BOUGHT BAT/USD (~$9,708) - up 4.5% today at $0.08249"
-  },
-  {
-   "t": "2026-11-22T20:54:19+00:00",
-   "msg": "Top movers: BAT/USD +4.5%"
   }
  ]
 }
