@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:45:15+00:00",
+ "updated": "2026-11-25T18:34:21+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,28 +7,19 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95444.33,
+ "equity": 95086.81,
  "last_equity": 95558.25051806484,
- "cash": 56969.73,
+ "cash": 65765.51,
  "market_open": true,
  "positions": [
-  {
-   "symbol": "BATUSD",
-   "qty": 117677.409926062,
-   "entry": 0.081839059,
-   "price": 0.078389,
-   "value": 9224.614487,
-   "pl": -405.994007,
-   "pct": -4.216
-  },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1670.82,
-   "value": 9472.43176,
-   "pl": -6.39631,
-   "pct": -0.067
+   "price": 1683.4,
+   "value": 9543.751945,
+   "pl": 64.923875,
+   "pct": 0.685
   },
   {
    "symbol": "GRTUSD",
@@ -40,8 +31,15 @@
    "pct": 6.23
   }
  ],
- "trade_count": 91,
+ "trade_count": 92,
  "orders": [
+  {
+   "symbol": "BAT/USD",
+   "side": "sell",
+   "qty": 117677.409926062,
+   "price": 0.074886672,
+   "t": "2026-11-25T18:34:21.173108011Z"
+  },
   {
    "symbol": "RENDER/USD",
    "side": "sell",
@@ -314,17 +312,17 @@
    "qty": 4.0,
    "price": 730.01,
    "t": "2026-11-18T15:40:17.531929Z"
-  },
-  {
-   "symbol": "RENDER/USD",
-   "side": "sell",
-   "qty": 6493.991015825,
-   "price": 1.4416,
-   "t": "2026-11-18T03:28:41.856454Z"
   }
  ],
  "history": [],
  "closed": [
+  {
+   "symbol": "BATUSD",
+   "pl": -587.42,
+   "pct": -6.1,
+   "reason": "stop-loss",
+   "t": "2026-11-25T18:34:20+00:00"
+  },
   {
    "symbol": "RENDERUSD",
    "pl": -821.79,
@@ -348,11 +346,23 @@
   }
  ],
  "totals": {
-  "closed": 3,
+  "closed": 4,
   "wins": 0,
-  "realized": -1785.99
+  "realized": -2373.41
  },
  "log": [
+  {
+   "t": "2026-11-25T18:34:21+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-25T18:34:20+00:00",
+   "msg": "\ud83d\udcb0 SOLD BATUSD - stop-loss (-6.1%), profit/loss $-587.42"
+  },
+  {
+   "t": "2026-11-25T18:34:19+00:00",
+   "msg": "\u2014 Account $95,334.22 (-0.23% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-25T17:45:15+00:00",
    "msg": "No good movers right now. Waiting."
@@ -660,18 +670,6 @@
   {
    "t": "2026-11-24T01:29:52+00:00",
    "msg": "\u2014 Account $97,498.68 (+0.65% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-24T00:09:40+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-24T00:09:39+00:00",
-   "msg": "\u2014 Account $97,282.23 (+0.43% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-23T23:16:13+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
   }
  ]
 }
