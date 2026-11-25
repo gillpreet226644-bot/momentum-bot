@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:47:33+00:00",
+ "updated": "2026-11-25T15:48:08+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,9 +7,9 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95649.61,
+ "equity": 95250.89,
  "last_equity": 95558.25051806484,
- "cash": 48437.07,
+ "cash": 56969.73,
  "market_open": true,
  "positions": [
   {
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1615.9,
-   "value": 9161.072097,
-   "pl": -317.755973,
-   "pct": -3.3520000000000003
+   "price": 1636.7,
+   "value": 9278.994184,
+   "pl": -199.833886,
+   "pct": -2.108
   },
   {
    "symbol": "GRTUSD",
@@ -38,19 +38,17 @@
    "value": 10091.042205,
    "pl": 591.776263,
    "pct": 6.23
-  },
-  {
-   "symbol": "RENDERUSD",
-   "qty": 7067.335059772,
-   "entry": 1.338,
-   "price": 1.2804399,
-   "value": 9049.297797,
-   "pl": -406.796513,
-   "pct": -4.3020000000000005
   }
  ],
- "trade_count": 90,
+ "trade_count": 91,
  "orders": [
+  {
+   "symbol": "RENDER/USD",
+   "side": "sell",
+   "qty": 7067.335059772,
+   "price": 1.21,
+   "t": "2026-11-25T15:48:07.532793569Z"
+  },
   {
    "symbol": "GRT/USD",
    "side": "buy",
@@ -323,17 +321,17 @@
    "qty": 6493.991015825,
    "price": 1.4416,
    "t": "2026-11-18T03:28:41.856454Z"
-  },
-  {
-   "symbol": "RENDER/USD",
-   "side": "buy",
-   "qty": 6510.266682532,
-   "price": 1.482,
-   "t": "2026-11-17T23:28:02.449853Z"
   }
  ],
  "history": [],
  "closed": [
+  {
+   "symbol": "RENDERUSD",
+   "pl": -821.79,
+   "pct": -8.69,
+   "reason": "stop-loss",
+   "t": "2026-11-25T15:48:07+00:00"
+  },
   {
    "symbol": "UNIUSD",
    "pl": -478.48,
@@ -350,11 +348,23 @@
   }
  ],
  "totals": {
-  "closed": 2,
+  "closed": 3,
   "wins": 0,
-  "realized": -964.2
+  "realized": -1785.99
  },
  "log": [
+  {
+   "t": "2026-11-25T15:48:08+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-25T15:48:07+00:00",
+   "msg": "\ud83d\udcb0 SOLD RENDERUSD - stop-loss (-8.7%), profit/loss $-821.79"
+  },
+  {
+   "t": "2026-11-25T15:48:07+00:00",
+   "msg": "\u2014 Account $95,365.14 (-0.20% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-25T14:47:33+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -662,18 +672,6 @@
   {
    "t": "2026-11-23T21:20:36+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T21:20:35+00:00",
-   "msg": "\u2014 Account $97,650.13 (+0.81% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-23T20:24:21+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T20:24:20+00:00",
-   "msg": "\u2014 Account $97,632.37 (+0.79% today) | stock market OPEN"
   }
  ]
 }
