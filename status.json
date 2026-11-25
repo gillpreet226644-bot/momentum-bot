@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:02:18+00:00",
+ "updated": "2026-11-25T11:02:17+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,9 +7,9 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95285.92,
+ "equity": 95793.31,
  "last_equity": 95558.25051806484,
- "cash": 48419.01,
+ "cash": 48437.07,
  "market_open": false,
  "positions": [
   {
@@ -25,19 +25,19 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1637.866,
-   "value": 9285.604624,
-   "pl": -193.223446,
-   "pct": -2.038
+   "price": 1641.248,
+   "value": 9304.778301,
+   "pl": -174.049769,
+   "pct": -1.836
   },
   {
    "symbol": "GRTUSD",
-   "qty": 77268.1382934,
-   "entry": 0.015988586,
+   "qty": 586688.500266873,
+   "entry": 0.016191328,
    "price": 0.0172,
-   "value": 1329.011979,
-   "pl": 93.603705,
-   "pct": 7.577
+   "value": 10091.042205,
+   "pl": 591.776263,
+   "pct": 6.23
   },
   {
    "symbol": "RENDERUSD",
@@ -49,14 +49,21 @@
    "pct": -4.3020000000000005
   }
  ],
- "trade_count": 89,
+ "trade_count": 90,
  "orders": [
+  {
+   "symbol": "GRT/USD",
+   "side": "buy",
+   "qty": 587470.903854499,
+   "price": 0.0161913,
+   "t": "2026-11-25T10:02:20.951527Z"
+  },
   {
    "symbol": "UNI/USD",
    "side": "sell",
    "qty": 2008.293823002,
    "price": 4.467583806,
-   "t": "2026-11-25T10:02:18.121898368Z"
+   "t": "2026-11-25T10:02:18.121898Z"
   },
   {
    "symbol": "BAT/USD",
@@ -323,13 +330,6 @@
    "qty": 6510.266682532,
    "price": 1.482,
    "t": "2026-11-17T23:28:02.449853Z"
-  },
-  {
-   "symbol": "TSLA",
-   "side": "buy",
-   "qty": 25.0,
-   "price": 378.47,
-   "t": "2026-11-17T20:51:44.107315Z"
   }
  ],
  "history": [],
@@ -355,6 +355,14 @@
   "realized": -964.2
  },
  "log": [
+  {
+   "t": "2026-11-25T11:02:17+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-25T11:02:16+00:00",
+   "msg": "\u2014 Account $95,793.31 (+0.25% today) | stock market closed"
+  },
   {
    "t": "2026-11-25T10:02:18+00:00",
    "msg": "\ud83d\uded2 BOUGHT GRT/USD (~$9,530) - up 7.3% today at $0.0172"
@@ -666,14 +674,6 @@
   {
    "t": "2026-11-23T17:14:25+00:00",
    "msg": "\u2014 Account $98,037.40 (+1.21% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-23T16:07:49+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T16:07:48+00:00",
-   "msg": "\u2014 Account $98,638.21 (+1.83% today) | stock market OPEN"
   }
  ]
 }
