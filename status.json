@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:48:08+00:00",
+ "updated": "2026-11-25T16:53:06+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95250.89,
+ "equity": 95255.99,
  "last_equity": 95558.25051806484,
  "cash": 56969.73,
  "market_open": true,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1636.7,
-   "value": 9278.994184,
-   "pl": -199.833886,
-   "pct": -2.108
+   "price": 1637.6,
+   "value": 9284.096582,
+   "pl": -194.731488,
+   "pct": -2.054
   },
   {
    "symbol": "GRTUSD",
@@ -47,7 +47,7 @@
    "side": "sell",
    "qty": 7067.335059772,
    "price": 1.21,
-   "t": "2026-11-25T15:48:07.532793569Z"
+   "t": "2026-11-25T15:48:07.532794Z"
   },
   {
    "symbol": "GRT/USD",
@@ -353,6 +353,14 @@
   "realized": -1785.99
  },
  "log": [
+  {
+   "t": "2026-11-25T16:53:06+00:00",
+   "msg": "No good movers right now. Waiting."
+  },
+  {
+   "t": "2026-11-25T16:53:04+00:00",
+   "msg": "\u2014 Account $95,255.99 (-0.32% today) | stock market OPEN"
+  },
   {
    "t": "2026-11-25T15:48:08+00:00",
    "msg": "No good movers right now. Waiting."
@@ -663,14 +671,6 @@
   },
   {
    "t": "2026-11-23T22:17:06+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T22:17:06+00:00",
-   "msg": "\u2014 Account $97,358.97 (+0.51% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-23T21:20:36+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   }
  ]
