@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:41:09+00:00",
+ "updated": "2026-11-25T08:51:59+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,8 +7,8 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95552.04,
- "last_equity": 97152.47591253331,
+ "equity": 95497.67,
+ "last_equity": 95558.25051806484,
  "cash": 48996.55,
  "market_open": false,
  "positions": [
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1652.57,
-   "value": 9368.966468,
-   "pl": -109.861602,
-   "pct": -1.159
+   "price": 1642.979,
+   "value": 9314.591913,
+   "pl": -164.236157,
+   "pct": -1.733
   },
   {
    "symbol": "RENDERUSD",
@@ -349,6 +349,14 @@
  },
  "log": [
   {
+   "t": "2026-11-25T08:51:59+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-25T08:51:59+00:00",
+   "msg": "\u2014 Account $95,497.67 (-0.06% today) | stock market closed"
+  },
+  {
    "t": "2026-11-25T07:41:09+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -659,14 +667,6 @@
   {
    "t": "2026-11-23T13:54:58+00:00",
    "msg": "\u2014 Account $96,943.99 (+0.08% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-23T12:25:25+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T12:25:24+00:00",
-   "msg": "\u2014 Account $96,985.89 (+0.12% today) | stock market closed"
   }
  ]
 }
