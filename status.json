@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:51:59+00:00",
+ "updated": "2026-11-25T10:02:18+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,9 +7,9 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95497.67,
+ "equity": 95285.92,
  "last_equity": 95558.25051806484,
- "cash": 48996.55,
+ "cash": 48419.01,
  "market_open": false,
  "positions": [
   {
@@ -25,10 +25,19 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1642.979,
-   "value": 9314.591913,
-   "pl": -164.236157,
-   "pct": -1.733
+   "price": 1637.866,
+   "value": 9285.604624,
+   "pl": -193.223446,
+   "pct": -2.038
+  },
+  {
+   "symbol": "GRTUSD",
+   "qty": 77268.1382934,
+   "entry": 0.015988586,
+   "price": 0.0172,
+   "value": 1329.011979,
+   "pl": 93.603705,
+   "pct": 7.577
   },
   {
    "symbol": "RENDERUSD",
@@ -38,19 +47,17 @@
    "value": 9049.297797,
    "pl": -406.796513,
    "pct": -4.3020000000000005
-  },
-  {
-   "symbol": "UNIUSD",
-   "qty": 2008.293823002,
-   "entry": 4.748251256,
-   "price": 4.594,
-   "value": 9226.101823,
-   "pl": -309.781844,
-   "pct": -3.2489999999999997
   }
  ],
- "trade_count": 88,
+ "trade_count": 89,
  "orders": [
+  {
+   "symbol": "UNI/USD",
+   "side": "sell",
+   "qty": 2008.293823002,
+   "price": 4.467583806,
+   "t": "2026-11-25T10:02:18.121898368Z"
+  },
   {
    "symbol": "BAT/USD",
    "side": "buy",
@@ -323,17 +330,17 @@
    "qty": 25.0,
    "price": 378.47,
    "t": "2026-11-17T20:51:44.107315Z"
-  },
-  {
-   "symbol": "SPY",
-   "side": "sell",
-   "qty": 13.0,
-   "price": 729.86077,
-   "t": "2026-11-17T20:51:49.146952Z"
   }
  ],
  "history": [],
  "closed": [
+  {
+   "symbol": "UNIUSD",
+   "pl": -478.48,
+   "pct": -5.02,
+   "reason": "stop-loss",
+   "t": "2026-11-25T10:02:18+00:00"
+  },
   {
    "symbol": "GRTUSD",
    "pl": -485.72,
@@ -343,11 +350,27 @@
   }
  ],
  "totals": {
-  "closed": 1,
+  "closed": 2,
   "wins": 0,
-  "realized": -485.72
+  "realized": -964.2
  },
  "log": [
+  {
+   "t": "2026-11-25T10:02:18+00:00",
+   "msg": "\ud83d\uded2 BOUGHT GRT/USD (~$9,530) - up 7.3% today at $0.0172"
+  },
+  {
+   "t": "2026-11-25T10:02:18+00:00",
+   "msg": "Top movers: GRT/USD +7.3%"
+  },
+  {
+   "t": "2026-11-25T10:02:18+00:00",
+   "msg": "\ud83d\udcb0 SOLD UNIUSD - stop-loss (-5.0%), profit/loss $-478.48"
+  },
+  {
+   "t": "2026-11-25T10:02:18+00:00",
+   "msg": "\u2014 Account $95,299.98 (-0.27% today) | stock market closed"
+  },
   {
    "t": "2026-11-25T08:51:59+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
@@ -651,22 +674,6 @@
   {
    "t": "2026-11-23T16:07:48+00:00",
    "msg": "\u2014 Account $98,638.21 (+1.83% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-23T14:59:10+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T14:59:09+00:00",
-   "msg": "\u2014 Account $98,864.45 (+2.06% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-23T13:54:59+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-23T13:54:58+00:00",
-   "msg": "\u2014 Account $96,943.99 (+0.08% today) | stock market closed"
   }
  ]
 }
