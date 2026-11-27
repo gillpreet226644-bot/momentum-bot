@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:40:07+00:00",
+ "updated": "2026-11-27T14:01:31+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95923.54,
+ "equity": 95918.68,
  "last_equity": 95321.04082147455,
  "cash": 47095.7,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1720.87,
-   "value": 9756.181781,
-   "pl": 277.353711,
-   "pct": 2.926
+   "price": 1720.013,
+   "value": 9751.323164,
+   "pl": 272.495094,
+   "pct": 2.875
   },
   {
    "symbol": "GRTUSD",
@@ -370,6 +370,14 @@
  },
  "log": [
   {
+   "t": "2026-11-27T14:01:31+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-27T14:01:31+00:00",
+   "msg": "\u2014 Account $95,918.68 (+0.63% today) | stock market closed"
+  },
+  {
    "t": "2026-11-27T12:40:07+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -680,14 +688,6 @@
   {
    "t": "2026-11-25T19:37:31+00:00",
    "msg": "\u2014 Account $95,095.89 (-0.48% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-25T18:34:21+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-25T18:34:20+00:00",
-   "msg": "\ud83d\udcb0 SOLD BATUSD - stop-loss (-6.1%), profit/loss $-587.42"
   }
  ]
 }
