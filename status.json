@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:08:05+00:00",
+ "updated": "2026-11-27T03:11:54+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95791.9,
+ "equity": 95929.87,
  "last_equity": 95321.04082147455,
  "cash": 47095.7,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1714.93,
-   "value": 9722.505954,
-   "pl": 243.677884,
-   "pct": 2.571
+   "price": 1725.182,
+   "value": 9780.627936,
+   "pl": 301.799866,
+   "pct": 3.184
   },
   {
    "symbol": "GRTUSD",
@@ -43,10 +43,10 @@
    "symbol": "LTCUSD",
    "qty": 218.168507671,
    "entry": 42.785255667,
-   "price": 43.824,
-   "value": 9561.01668,
-   "pl": 226.621301,
-   "pct": 2.428
+   "price": 44.19,
+   "value": 9640.866354,
+   "pl": 306.470975,
+   "pct": 3.283
   }
  ],
  "trade_count": 94,
@@ -370,6 +370,14 @@
  },
  "log": [
   {
+   "t": "2026-11-27T03:11:54+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-27T03:11:53+00:00",
+   "msg": "\u2014 Account $95,929.87 (+0.64% today) | stock market closed"
+  },
+  {
    "t": "2026-11-27T02:08:05+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -680,14 +688,6 @@
   {
    "t": "2026-11-25T11:02:16+00:00",
    "msg": "\u2014 Account $95,793.31 (+0.25% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-25T10:02:18+00:00",
-   "msg": "\ud83d\uded2 BOUGHT GRT/USD (~$9,530) - up 7.3% today at $0.0172"
-  },
-  {
-   "t": "2026-11-25T10:02:18+00:00",
-   "msg": "Top movers: GRT/USD +7.3%"
   }
  ]
 }
