@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:40:47+00:00",
+ "updated": "2026-11-27T02:08:05+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95498.61,
+ "equity": 95791.9,
  "last_equity": 95321.04082147455,
  "cash": 47095.7,
  "market_open": false,
@@ -16,19 +16,19 @@
    "symbol": "BCHUSD",
    "qty": 45.53461278,
    "entry": 204.118154052,
-   "price": 208.487,
-   "value": 9493.374815,
-   "pl": 198.933709,
-   "pct": 2.1399999999999997
+   "price": 211.6,
+   "value": 9635.124064,
+   "pl": 340.682958,
+   "pct": 3.665
   },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1688.2,
-   "value": 9570.964734,
-   "pl": 92.136664,
-   "pct": 0.972
+   "price": 1714.93,
+   "value": 9722.505954,
+   "pl": 243.677884,
+   "pct": 2.571
   },
   {
    "symbol": "GRTUSD",
@@ -370,6 +370,14 @@
  },
  "log": [
   {
+   "t": "2026-11-27T02:08:05+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-27T02:08:04+00:00",
+   "msg": "\u2014 Account $95,791.90 (+0.49% today) | stock market closed"
+  },
+  {
    "t": "2026-11-27T00:40:47+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -680,14 +688,6 @@
   {
    "t": "2026-11-25T10:02:18+00:00",
    "msg": "Top movers: GRT/USD +7.3%"
-  },
-  {
-   "t": "2026-11-25T10:02:18+00:00",
-   "msg": "\ud83d\udcb0 SOLD UNIUSD - stop-loss (-5.0%), profit/loss $-478.48"
-  },
-  {
-   "t": "2026-11-25T10:02:18+00:00",
-   "msg": "\u2014 Account $95,299.98 (-0.27% today) | stock market closed"
   }
  ]
 }
