@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:05:04+00:00",
+ "updated": "2026-11-27T17:16:45+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 95511.8,
+ "equity": 95206.93,
  "last_equity": 95321.04082147455,
  "cash": 47095.7,
  "market_open": true,
@@ -16,19 +16,19 @@
    "symbol": "BCHUSD",
    "qty": 45.53461278,
    "entry": 204.118154052,
-   "price": 210.8,
-   "value": 9598.696374,
-   "pl": 304.255268,
-   "pct": 3.274
+   "price": 204.089,
+   "value": 9293.113588,
+   "pl": -1.327518,
+   "pct": -0.013999999999999999
   },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1670.949,
-   "value": 9473.163104,
-   "pl": -5.664966,
-   "pct": -0.06
+   "price": 1671.075,
+   "value": 9473.87744,
+   "pl": -4.95063,
+   "pct": -0.052
   },
   {
    "symbol": "GRTUSD",
@@ -370,6 +370,14 @@
  },
  "log": [
   {
+   "t": "2026-11-27T17:16:45+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-27T17:16:45+00:00",
+   "msg": "\u2014 Account $95,206.93 (-0.12% today) | stock market OPEN"
+  },
+  {
    "t": "2026-11-27T16:05:04+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -680,14 +688,6 @@
   {
    "t": "2026-11-25T21:40:51+00:00",
    "msg": "\u2014 Account $95,023.84 (-0.56% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-25T20:36:34+00:00",
-   "msg": "\ud83d\uded2 BOUGHT BCH/USD (~$9,505) - up 3.4% today at $204.1"
-  },
-  {
-   "t": "2026-11-25T20:36:33+00:00",
-   "msg": "Top movers: BCH/USD +3.4%"
   }
  ]
 }
