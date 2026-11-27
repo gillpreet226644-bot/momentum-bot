@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:34:29+00:00",
+ "updated": "2026-11-27T11:33:10+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 96005.28,
+ "equity": 96048.27,
  "last_equity": 95321.04082147455,
  "cash": 47095.7,
  "market_open": false,
@@ -16,19 +16,19 @@
    "symbol": "BCHUSD",
    "qty": 45.53461278,
    "entry": 204.118154052,
-   "price": 212.7,
-   "value": 9685.212138,
-   "pl": 390.771032,
-   "pct": 4.204
+   "price": 212.776,
+   "value": 9688.672769,
+   "pl": 394.231663,
+   "pct": 4.242
   },
   {
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1725.8,
-   "value": 9784.131583,
-   "pl": 305.303513,
-   "pct": 3.221
+   "price": 1727.0,
+   "value": 9790.93478,
+   "pl": 312.10671,
+   "pct": 3.293
   },
   {
    "symbol": "GRTUSD",
@@ -43,10 +43,10 @@
    "symbol": "LTCUSD",
    "qty": 218.168507671,
    "entry": 42.785255667,
-   "price": 44.29,
-   "value": 9662.683205,
-   "pl": 328.287826,
-   "pct": 3.517
+   "price": 44.44,
+   "value": 9695.408481,
+   "pl": 361.013102,
+   "pct": 3.868
   }
  ],
  "trade_count": 94,
@@ -370,6 +370,14 @@
  },
  "log": [
   {
+   "t": "2026-11-27T11:33:10+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-27T11:33:09+00:00",
+   "msg": "\u2014 Account $96,048.27 (+0.76% today) | stock market closed"
+  },
+  {
    "t": "2026-11-27T10:34:29+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -679,14 +687,6 @@
   },
   {
    "t": "2026-11-25T17:45:15+00:00",
-   "msg": "No good movers right now. Waiting."
-  },
-  {
-   "t": "2026-11-25T17:45:14+00:00",
-   "msg": "\u2014 Account $95,444.33 (-0.12% today) | stock market OPEN"
-  },
-  {
-   "t": "2026-11-25T16:53:06+00:00",
    "msg": "No good movers right now. Waiting."
   }
  ]
