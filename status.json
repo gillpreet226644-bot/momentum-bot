@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:24:11+00:00",
+ "updated": "2026-11-28T00:19:53+00:00",
  "mode": "PAPER",
  "settings": {
   "stop_loss": 5,
@@ -7,7 +7,7 @@
   "per_trade": 10,
   "max_trades": 5
  },
- "equity": 94758.28,
+ "equity": 94786.3,
  "last_equity": 95321.04082147455,
  "cash": 47095.7,
  "market_open": false,
@@ -25,10 +25,10 @@
    "symbol": "ETHUSD",
    "qty": 5.669331083,
    "entry": 1671.948230095,
-   "price": 1658.257,
-   "value": 9401.207954,
-   "pl": -77.620116,
-   "pct": -0.819
+   "price": 1663.2,
+   "value": 9429.231457,
+   "pl": -49.596613,
+   "pct": -0.523
   },
   {
    "symbol": "GRTUSD",
@@ -370,6 +370,14 @@
  },
  "log": [
   {
+   "t": "2026-11-28T00:19:53+00:00",
+   "msg": "Holding 5 trades (max 5). Watching them."
+  },
+  {
+   "t": "2026-11-28T00:19:52+00:00",
+   "msg": "\u2014 Account $94,786.30 (-0.56% today) | stock market closed"
+  },
+  {
    "t": "2026-11-27T23:24:11+00:00",
    "msg": "Holding 5 trades (max 5). Watching them."
   },
@@ -680,14 +688,6 @@
   {
    "t": "2026-11-26T05:10:16+00:00",
    "msg": "\u2014 Account $95,543.87 (-0.02% today) | stock market closed"
-  },
-  {
-   "t": "2026-11-26T03:58:07+00:00",
-   "msg": "Holding 5 trades (max 5). Watching them."
-  },
-  {
-   "t": "2026-11-26T03:58:06+00:00",
-   "msg": "\u2014 Account $95,489.89 (-0.07% today) | stock market closed"
   }
  ]
 }
